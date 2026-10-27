@@ -7,3 +7,13 @@ L05,1,store.csv is a static snapshot.,Changes from missing to known competitor d
 L06,1,test.csv has no Sales or Customers.,"Accuracy can only be measured on labelled history, not on the supplied test period."
 L07,1,180 stores are missing the same six-month block in one year.,Needs flagging; rolling and sequence features must not cross the gap.
 L08,1,School holidays are far more common in test (44%) than in train (18%); state holidays b and c never occur in test.,Train/test shift: performance on those patterns cannot be confirmed from the test period.
+L09,3,"The cause of the shared six-month missing block is not in the data (planned closure, refurbishment or missing data).",Forecasts for these stores rely on history on either side of the block; features must not cross it.
+L10,3,The cause of the 54 open zero-sales days cannot be confirmed.,"They are excluded from training on the evidence of their pattern, not on a confirmed explanation."
+L11,3,"Three competitors open after the last training date, inside the forecast window.",Their effect on those stores cannot be learned from training history.
+L12,3,About one third of stores have no usable competitor opening date.,"Competition-age features carry an 'unknown' group, which weakens conclusions about competitor openings."
+L13,3,"Store 622's 11 missing Open values in test are assumed open from a rule, not from supplied plans.","If the store is actually closed on those days, its forecasts for them are overstated."
+L14,4,"Validation uses actual Open, Promo and holiday values as if they were known plans.","If real plans change after the forecast is made, true errors will be somewhat larger than validation suggests."
+L15,4,The rolling windows (February to June) contain little of the summer school-holiday pattern (4% to 23% of days against 44% in test).,"Only the seasonal check resembles the test window, and it has fewer stores and a shorter training history."
+L16,4,The 42-day holdout does not cover forecast days 43 to 48 of the 48-day test window.,Those days are checked only through the seasonal check.
+L17,4,"Only about two and a half years of history exist, with one complete earlier summer (2013) and a partial 2014 summer for 180 stores.",Summer seasonality is learned from very few examples.
+L18,4,A single 42-day holdout is one draw of forecast conditions.,"Holdout error has sampling noise; conclusions rely on the holdout, rolling windows and seasonal check together."
