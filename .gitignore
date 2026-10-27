@@ -1,0 +1,12 @@
+# Python and notebook files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+# Logs and experiment-tracking stores (not versioned in Git)
+logs/
+mlruns/
+mlflow.db
+# Data is versioned with DVC; DVC adds its own ignore entries for tracked folders
+/data
