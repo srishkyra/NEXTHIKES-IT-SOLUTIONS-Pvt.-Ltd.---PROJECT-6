@@ -1,0 +1,5 @@
+group,stores,rank_correlation
+All stores,1112,-0.03
+Store type a,601,-0.09
+Store type c,148,-0.01
+Store type d,346,0.06

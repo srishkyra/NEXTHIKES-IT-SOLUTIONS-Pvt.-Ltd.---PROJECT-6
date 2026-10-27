@@ -1,0 +1,7 @@
+DayOfWeek,sales_index_no_school,sales_index_school,customers_no_school,customers_school,sales_index_change_%
+Mon,0.94,1.01,845.9,895.66,7.4
+Tue,0.99,0.99,771.62,768.11,0.0
+Wed,1.01,1.0,745.06,728.19,-1.0
+Thu,1.02,1.02,753.33,763.29,0.0
+Fri,1.03,0.97,787.73,763.59,-5.8
+Sat,1.03,0.97,662.5,657.34,-5.8

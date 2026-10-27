@@ -1,0 +1,6 @@
+DayOfWeek,sales_no_promo,sales_promo,sales_lift_%,customers_no_promo,customers_promo,customers_lift_%
+Mon,6204.7,9762.0,57.3,741.5,945.1,27.5
+Tue,5717.3,8246.7,44.2,688.7,841.4,22.2
+Wed,5608.4,7677.0,36.9,672.8,799.9,18.9
+Thu,5731.2,7591.6,32.5,687.0,810.8,18.0
+Fri,6356.9,7727.8,21.6,737.0,824.1,11.8

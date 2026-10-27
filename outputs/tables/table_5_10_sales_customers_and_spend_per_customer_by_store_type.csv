@@ -1,0 +1,5 @@
+StoreType,stores,avg_sales,avg_customers,sales_per_customer,correlation
+a,602,6928.16,797.28,8.69,0.9
+b,17,10205.71,2016.48,5.06,0.87
+c,148,6935.46,817.66,8.48,0.89
+d,348,6814.41,607.06,11.23,0.86

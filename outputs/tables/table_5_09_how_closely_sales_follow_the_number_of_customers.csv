@@ -1,0 +1,6 @@
+,value
+"Pearson correlation, all open days",0.825
+"Spearman (rank) correlation, all open days",0.833
+Share of sales variation explained by customers (R squared),68%
+Median correlation inside a single store,0.947
+Lowest and highest correlation inside a store,0.48 and 0.98

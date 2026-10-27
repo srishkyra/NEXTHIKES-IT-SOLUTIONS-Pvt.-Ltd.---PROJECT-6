@@ -1,0 +1,20 @@
+,,stores,median_lift_pct,median_extra_sales
+Store type,a,602,36.9,2140.0
+Store type,b,17,14.7,1621.0
+Store type,c,148,40.1,2157.8
+Store type,d,348,42.0,2313.6
+Assortment,a,593,41.6,2184.5
+Assortment,b,9,11.6,984.7
+Assortment,c,513,36.2,2219.7
+Store size,Smallest 25% of stores,279,42.6,1576.5
+Store size,Lower middle,279,40.5,2018.5
+Store size,Upper middle,278,39.2,2364.6
+Store size,Largest 25% of stores,279,34.3,2845.0
+Promo2,In Promo2,571,42.2,2219.7
+Promo2,Not in Promo2,544,35.2,2168.3
+Competitor distance,under 500 m,220,40.9,2470.3
+Competitor distance,500 m to 1 km,110,36.4,1996.9
+Competitor distance,1 to 2 km,172,35.6,2088.4
+Competitor distance,2 to 5 km,264,39.0,2148.9
+Competitor distance,5 to 10 km,162,39.2,2165.7
+Competitor distance,over 10 km,187,39.5,2187.7

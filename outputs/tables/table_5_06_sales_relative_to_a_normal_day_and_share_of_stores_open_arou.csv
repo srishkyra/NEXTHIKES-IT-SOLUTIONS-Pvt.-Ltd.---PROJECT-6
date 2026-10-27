@@ -1,0 +1,6 @@
+,relative_sales,relative_sales,relative_sales,stores_open_%,stores_open_%,stores_open_%
+phase,3 days before,holiday,3 days after,3 days before,holiday,3 days after
+type,,,,,,
+National public holidays,1.03,0.96,1.02,87.42,2.5,81.36
+Easter (Good Friday to Easter Monday),1.4,1.09,0.88,99.85,2.17,99.76
+Christmas (25 and 26 Dec),1.19,1.03,1.02,83.75,1.74,67.45
