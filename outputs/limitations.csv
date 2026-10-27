@@ -1,0 +1,9 @@
+id,section,limitation,effect_on_conclusions
+L01,1,The data is daily; there is no hourly or opening-time information.,Opening and closing behaviour can only be studied as open vs closed days.
+L02,1,"Promotion effects are observed associations, not controlled experiments.",No causal uplift can be claimed; Promo2 stores selling less may reflect who is targeted.
+L03,1,Only daily customer counts exist.,Returning vs new customers cannot be identified.
+L04,1,There is no location information (no city or city-centre flag).,The city-centre part of the competitor-distance question cannot be tested.
+L05,1,store.csv is a static snapshot.,Changes from missing to known competitor distance over time cannot be observed.
+L06,1,test.csv has no Sales or Customers.,"Accuracy can only be measured on labelled history, not on the supplied test period."
+L07,1,180 stores are missing the same six-month block in one year.,Needs flagging; rolling and sequence features must not cross the gap.
+L08,1,School holidays are far more common in test (44%) than in train (18%); state holidays b and c never occur in test.,Train/test shift: performance on those patterns cannot be confirmed from the test period.

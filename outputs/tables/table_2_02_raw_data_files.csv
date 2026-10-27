@@ -1,0 +1,5 @@
+,file,size_mb,rows,expected_rows,matches
+0,train.csv,38.06,1017209,1017209,True
+1,test.csv,1.43,41088,41088,True
+2,store.csv,0.05,1115,1115,True
+3,sample_submission.csv,0.32,41088,41088,True
