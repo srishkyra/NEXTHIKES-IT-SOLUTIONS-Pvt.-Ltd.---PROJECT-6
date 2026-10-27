@@ -1,0 +1,4 @@
+,rows
+Rows with positive sales but zero customers,0
+Rows with customers but zero sales,2
+Closed rows with customers,0

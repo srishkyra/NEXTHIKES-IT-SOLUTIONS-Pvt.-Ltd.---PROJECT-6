@@ -1,0 +1,4 @@
+,rows_before,rows_after,columns_before,columns_after
+train,1017209,1017209,9,26
+test,41088,41088,8,22
+store,1115,1115,10,14

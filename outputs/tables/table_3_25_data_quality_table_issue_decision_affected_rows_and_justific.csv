@@ -1,0 +1,17 @@
+,issue,file,affected,decision,justification
+0,"Keys, calendar, value ranges and file links",all files,0 problems in 27 checks,No action needed,"Keys are unique, DayOfWeek agrees with Date, codes are valid, no negative sales or customers, all links match."
+1,StateHoliday mixes numeric 0 with letters,"train, test","1,058,297 rows","Read as text with codes 0, a, b, c",Otherwise numeric 0 and text '0' are treated as different values.
+2,Missing block of days (2014-07-01 to 2014-12-31),train,"33,120 store-days in 180 stores","Keep as is; flag stores (has_history_gap, missing_history_days); later features must not cross the gap","Every affected store misses exactly the same block, so the cause is not a data error we can repair; filling it would invent sales."
+3,A store missing a single day,train,1 store-day,No action,One missing day has no practical effect.
+4,Closed days with sales,train,0,No action,All closed days already have zero sales; predict 0 whenever Open = 0.
+5,Open days with zero sales,train,54 rows in 41 stores,Flag as suspect_zero_sales and exclude from training through use_for_training; rows are kept,"Scattered across many stores and months, none on state holidays, almost all with zero customers, so they look like recording errors; keeping the rows avoids creating date gaps."
+6,Closed on a normal weekday,train,"1,847 rows in 189 stores",Keep; the Open column carries the information,These are real closures (a few stores close for long stretches); the model predicts 0 when Open = 0.
+7,Missing Open values,test,11 rows (store 622),"Set Open = 1 by rule (not a Sunday, not a state holiday) and flag Open_imputed","All affected days are ordinary weekdays, and in train this store closes only on Sundays and state holidays."
+8,Missing competitor distance,store,3 stores,Fill with the median distance and flag CompetitionDistance_missing,"Only a handful of stores; the distance is a store attribute, so no sales information is used."
+9,Missing competitor opening date,store,354 stores,Leave unknown; flag with CompetitionOpenDate_known = 0,Invented dates would create false competition ages; most of these stores do have a known distance.
+10,Implausible competitor year (before 1990),store,2 stores,Treat the date as unknown and flag CompetitionOpenYear_suspect,One year looks like a placeholder (1900); neither can be verified.
+11,Competitor opens after the last training date,store,3 stores,Keep the dates,"Their effect falls in the forecast period, so it cannot be learned from training history (see Limitations)."
+12,Missing Promo2 details,store,544 stores,"Code as not applicable (PromoInterval = None, since week and year = 0)","Every missing value belongs to a store with Promo2 = 0, so nothing is unknown."
+13,Unusually high or low sales (store-by-weekday robust z-score beyond 5),train,"986 rows (627 high, 359 low)",Keep and flag with sales_outlier_flag; nothing capped or removed,"High flags cluster in Easter and pre-Christmas months, which fits genuine peaks; low flags are few and their cause cannot be shown."
+14,Global IQR rule for outliers,train,"would flag 30,769 rows (3.6%)",Not used,"It mostly removes promotion days and large stores, which are exactly what the model must learn."
+15,Joining store.csv,"train, test",0 unmatched rows,Join on Store (many-to-one); row counts unchanged,Every store has exactly one row in store.csv.

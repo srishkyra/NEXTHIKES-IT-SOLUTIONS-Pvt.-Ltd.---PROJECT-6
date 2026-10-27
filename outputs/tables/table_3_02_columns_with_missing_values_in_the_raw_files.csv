@@ -1,0 +1,8 @@
+,file,column,dtype,missing,missing_pct,unique_values
+0,test,Open,float64,11,0.03,2
+1,store,CompetitionDistance,float64,3,0.27,654
+2,store,CompetitionOpenSinceMonth,float64,354,31.75,12
+3,store,CompetitionOpenSinceYear,float64,354,31.75,23
+4,store,Promo2SinceWeek,float64,544,48.79,24
+5,store,Promo2SinceYear,float64,544,48.79,7
+6,store,PromoInterval,str,544,48.79,3

@@ -1,0 +1,5 @@
+file,rows,columns,memory_mb,first_date,last_date
+train,1017209,9,74.3,2013-01-01,2015-07-31
+test,41088,8,2.7,2015-08-01,2015-09-17
+store,1115,10,0.1,,
+sample_submission,41088,2,0.7,,

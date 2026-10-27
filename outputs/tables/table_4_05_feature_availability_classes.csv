@@ -1,0 +1,8 @@
+,meaning
+known_future,"Calendar, schedule and holiday information known before the forecast date (allowed)"
+store_static,Store attributes that do not change during the forecast window (allowed)
+origin_history,History summarised using only days up to the forecast origin (allowed)
+target,What we predict (never an input)
+forbidden,"Actual values from the forecast window, for example Customers on the forecast day (never an input)"
+row_control,"Columns that select or flag rows in the cleaning step; derived from sales, so never inputs"
+identifier,Row identifiers (never inputs)

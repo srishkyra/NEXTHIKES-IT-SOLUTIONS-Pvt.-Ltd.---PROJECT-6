@@ -1,0 +1,28 @@
+,check,file,found,expected,passed
+0,Exact duplicate rows,train,0,0,True
+1,Exact duplicate rows,test,0,0,True
+2,Exact duplicate rows,store,0,0,True
+3,"Repeated (Store, Date) pairs",train,0,0,True
+4,"Repeated (Store, Date) pairs",test,0,0,True
+5,Repeated Id values,test,0,0,True
+6,Repeated Store values,store,0,0,True
+7,DayOfWeek disagrees with Date,train,0,0,True
+8,DayOfWeek disagrees with Date,test,0,0,True
+9,Negative Sales,train,0,0,True
+10,Negative Customers,train,0,0,True
+11,"Open not in {0, 1}",train,0,0,True
+12,"Open not in {0, 1}",test,0,0,True
+13,"Promo not in {0, 1}",train,0,0,True
+14,"Promo not in {0, 1}",test,0,0,True
+15,"SchoolHoliday not in {0, 1}",train,0,0,True
+16,"SchoolHoliday not in {0, 1}",test,0,0,True
+17,"StateHoliday not in {0, a, b, c}",train,0,0,True
+18,"StateHoliday not in {0, a, b, c}",test,0,0,True
+19,"StoreType not in {a, b, c, d}",store,0,0,True
+20,"Assortment not in {a, b, c}",store,0,0,True
+21,"Promo2 not in {0, 1}",store,0,0,True
+22,PromoInterval not one of the 3 valid patterns,store,0,0,True
+23,Test Ids missing from sample_submission,test/sample,0,0,True
+24,Sample_submission Ids missing from test,test/sample,0,0,True
+25,Train stores missing from store.csv,train/store,0,0,True
+26,Test stores missing from train,test/train,0,0,True

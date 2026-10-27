@@ -1,0 +1,7 @@
+,missing,missing_pct,meaning
+CompetitionDistance,3,0.3,Unknown
+CompetitionOpenSinceMonth,354,31.7,Unknown
+CompetitionOpenSinceYear,354,31.7,Unknown
+Promo2SinceWeek,544,48.8,Not applicable when Promo2 = 0
+Promo2SinceYear,544,48.8,Not applicable when Promo2 = 0
+PromoInterval,544,48.8,Not applicable when Promo2 = 0

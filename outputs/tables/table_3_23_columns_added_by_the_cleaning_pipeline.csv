@@ -1,0 +1,11 @@
+new_column,table,meaning,rows_or_stores_flagged
+suspect_zero_sales,train,1 if the store was open but sales were zero,54
+use_for_training,train,1 if the store was open with positive sales (rows used for model training),844338
+sales_outlier_flag,train,"+1 unusually high, -1 unusually low for that store and weekday",986
+sales_robust_z,train,Robust z-score behind the flag (open days only),844338
+Open_imputed,test,1 if Open was missing and filled by rule,11
+CompetitionDistance_missing,store,1 if distance was unknown (filled with median),3
+CompetitionOpenDate_known,store,1 if the competitor opening date is known and plausible,759
+CompetitionOpenYear_suspect,store,1 if the original year was before 1990,2
+missing_history_days,store,Calendar days missing from the store's history,181
+has_history_gap,store,1 if at least 30 days are missing,180

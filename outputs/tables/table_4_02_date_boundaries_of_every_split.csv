@@ -1,0 +1,7 @@
+split,role,train_start,origin_last_known_day,training_days,valid_start,valid_end,forecast_days
+rolling_1,Rolling validation (tuning and model choice),2013-01-01,2015-02-13,774,2015-02-14,2015-03-27,42
+rolling_2,Rolling validation (tuning and model choice),2013-01-01,2015-03-27,816,2015-03-28,2015-05-08,42
+rolling_3,Rolling validation (tuning and model choice),2013-01-01,2015-05-08,858,2015-05-09,2015-06-19,42
+holdout,Final holdout (scored once),2013-01-01,2015-06-19,900,2015-06-20,2015-07-31,42
+seasonal_check,"Seasonal stress test (diagnostic only, not used for model choice)",2013-01-01,2014-07-31,577,2014-08-01,2014-09-17,48
+test (supplied),The real forecast: no sales available,2013-01-01,2015-07-31,942,2015-08-01,2015-09-17,48

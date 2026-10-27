@@ -1,0 +1,9 @@
+,value
+Open days with zero sales (rows),54
+Stores affected,41
+Months affected (of all months in train),20 of 31
+Rows with zero customers,52
+Rows with some customers but zero sales,2
+Rows on state holidays,0
+Most rows in any single store,3
+Share on promotion days,0.39
