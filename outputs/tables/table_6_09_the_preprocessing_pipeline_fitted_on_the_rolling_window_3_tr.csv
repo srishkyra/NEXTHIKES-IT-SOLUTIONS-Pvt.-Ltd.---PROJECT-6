@@ -1,0 +1,8 @@
+,value
+"Numeric features (median fill, missing-value flag, StandardScaler)",40
+Yes/no features (passed through),15
+"Category features (most-frequent fill, one-hot encoding)",6
+Columns after preprocessing,99
+Mean of the scaled numeric columns (training rows),6.7e-07 at most
+Standard deviation of the scaled numeric columns,1.00 to 1.00
+"Missing values left (training, validation, test)","0, 0, 0"

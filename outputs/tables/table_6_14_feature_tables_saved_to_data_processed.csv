@@ -1,0 +1,3 @@
+file,rows,columns,size_mb,contents
+features_dev.pkl.gz,1295849,70,29.0,Training table: rows for every forecast origin in the development period
+features_test.pkl.gz,41088,71,0.8,Features for the real forecast (origin = last labelled day)

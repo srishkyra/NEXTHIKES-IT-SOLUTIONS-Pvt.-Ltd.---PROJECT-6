@@ -1,0 +1,9 @@
+window,features,columns,rmspe,rmspe_test_stores,mae,rmse,validation_rows
+rolling_1,known_future_only,71,0.2651,0.2728,1138.8302,1679.116,40175
+rolling_1,with_history,99,0.168,0.1843,533.397,790.9857,40175
+rolling_2,known_future_only,71,0.2349,0.2293,1357.497,2039.8649,37044
+rolling_2,with_history,99,0.1145,0.1165,649.7965,956.632,37044
+rolling_3,known_future_only,71,0.2285,0.219,1315.8876,1947.4023,37472
+rolling_3,with_history,99,0.1046,0.1071,561.9545,799.3605,37472
+seasonal_check,known_future_only,71,0.2326,0.2273,1163.1744,1738.6515,38399
+seasonal_check,with_history,99,0.1053,0.11,520.869,814.0195,38399

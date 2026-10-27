@@ -1,0 +1,13 @@
+window,date,weekday,rmspe,stores_open
+rolling_1,2015-02-16,Mon,0.716,1083
+rolling_1,2015-03-15,Sun,0.413,30
+rolling_1,2015-02-17,Tue,0.348,1111
+rolling_2,2015-04-05,Sun,0.912,32
+rolling_2,2015-04-06,Mon,0.843,32
+rolling_2,2015-05-01,Fri,0.597,20
+rolling_3,2015-05-14,Thu,0.495,32
+rolling_3,2015-05-25,Mon,0.339,33
+rolling_3,2015-05-24,Sun,0.209,32
+seasonal_check,2014-08-17,Sun,0.204,31
+seasonal_check,2014-08-24,Sun,0.203,31
+seasonal_check,2014-08-31,Sun,0.191,31

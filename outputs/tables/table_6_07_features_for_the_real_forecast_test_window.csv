@@ -1,0 +1,6 @@
+,value
+Forecast origin (last labelled day),2015-07-31
+Rows,"41,088 (one for every row of test.csv)"
+Horizon days,1 to 48
+Rows with a planned opening (Open = 1),"35,104"
+Rows with a known Id,"41,088"

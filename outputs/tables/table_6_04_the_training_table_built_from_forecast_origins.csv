@@ -1,0 +1,11 @@
+,value
+Forecast origins,32
+First and last origin,2013-04-26 and 2015-05-22
+Spacing between regular origins,28 days
+Extra origins (the start of each validation window),4
+Forecast horizon of each origin,up to 48 days
+Rows (store-days to forecast),"1,295,849"
+"Rows used for training (open, positive sales)","1,295,759"
+Columns (features and identifiers),70
+Latest target date in the table,2015-06-19
+Memory used,356 MB

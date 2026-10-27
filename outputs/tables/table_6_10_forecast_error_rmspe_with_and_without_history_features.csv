@@ -1,0 +1,5 @@
+window,known_future_only,with_history,improvement_%
+rolling_1,0.2651,0.168,36.6277
+rolling_2,0.2349,0.1145,51.2741
+rolling_3,0.2285,0.1046,54.2093
+seasonal_check,0.2326,0.1053,54.7115

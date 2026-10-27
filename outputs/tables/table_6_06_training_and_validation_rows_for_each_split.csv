@@ -1,0 +1,5 @@
+split,training rows,validation rows,validation stores,training rows all before the window,every training origin is before its target day,validation rows all come from one origin,horizon days
+rolling_1,1022263,40175,1115,True,True,True,1 to 42
+rolling_2,1127151,37044,1115,True,True,True,1 to 42
+rolling_3,1199009,37472,1115,True,True,True,1 to 42
+seasonal_check,706809,38399,934,True,True,True,1 to 48

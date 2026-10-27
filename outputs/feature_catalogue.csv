@@ -1,0 +1,62 @@
+feature,class,kind,description
+dow,known_future,numeric,Weekday number (1 = Monday)
+is_weekend,known_future,binary,Saturday or Sunday
+day_of_month,known_future,numeric,Day of the month
+month,known_future,numeric,Month number
+week_of_year,known_future,numeric,ISO week of the year
+day_of_year,known_future,numeric,Day of the year
+days_to_month_end,known_future,numeric,Days left in the month
+month_part,known_future,categorical,"Beginning (1-10), middle (11-20) or end (21+) of the month"
+dow_sin,known_future,numeric,Weekday as a cycle (sine)
+dow_cos,known_future,numeric,Weekday as a cycle (cosine)
+month_sin,known_future,numeric,Month as a cycle (sine)
+month_cos,known_future,numeric,Month as a cycle (cosine)
+doy_sin,known_future,numeric,Day of year as a cycle (sine)
+doy_cos,known_future,numeric,Day of year as a cycle (cosine)
+is_christmas_eve,known_future,binary,24 December
+is_new_years_eve,known_future,binary,31 December
+state_holiday,known_future,categorical,"State holiday type for the store (0, a, b, c)"
+school_holiday,known_future,binary,School holiday affects the store
+days_to_holiday,known_future,numeric,Days to the next national holiday (capped at 30)
+days_since_holiday,known_future,numeric,Days since the last national holiday (capped at 30)
+days_to_easter,known_future,numeric,Days to the next Easter holiday (capped at 30)
+days_since_easter,known_future,numeric,Days since the last Easter holiday (capped at 30)
+days_to_christmas,known_future,numeric,Days to the next Christmas holiday (capped at 30)
+days_since_christmas,known_future,numeric,Days since the last Christmas holiday (capped at 30)
+promo,known_future,binary,Promotion on this day
+promo_dow,known_future,categorical,Promotion and weekday together (e.g. P1_D1)
+promo_week,known_future,binary,Any promotion this calendar week
+promo_prev_week,known_future,binary,Any promotion in the previous week
+days_since_closure,known_future,numeric,Days since the last closure on an ordinary day (capped at 14)
+days_since_long_closure,known_future,numeric,Days since a closure of 7+ ordinary days ended (capped at 60)
+days_to_long_closure,known_future,numeric,Days until a closure of 7+ ordinary days starts (capped at 30)
+days_since_gap_end,known_future,numeric,Days since the store's long gap in its history ended (capped at 365)
+comp_open_months,known_future,numeric,Months since the competitor opened (0 to 24; unknown date counted as 24)
+comp_not_yet_open,known_future,binary,Competitor opens after this date
+comp_opened_last_6m,known_future,binary,Competitor opened within the last 6 months
+comp_recent_near,known_future,binary,Competitor under 1 km opened within the last 6 months
+promo2_active,known_future,binary,Store is in Promo2 and its start date has passed
+promo2_weeks,known_future,numeric,"Weeks since Promo2 started (0 if not active, capped at 260)"
+promo2_start_month,known_future,binary,Promo2 round starts again this month
+horizon_day,known_future,numeric,Days between the forecast origin and this day
+store_type,store_static,categorical,"Store type (a, b, c, d)"
+assortment,store_static,categorical,"Assortment level (a, b, c)"
+competition_distance_log,store_static,numeric,log(1 + distance to nearest competitor)
+competition_distance_missing,store_static,binary,Distance was unknown (median used)
+promo2,store_static,binary,Store takes part in Promo2
+promo_interval,store_static,categorical,Months in which Promo2 rounds start
+has_history_gap,store_static,binary,Store is missing a long block of history
+hist_mean_28,origin_history,numeric,"Store's average sales per open day, last 28 days before the origin"
+hist_mean_91,origin_history,numeric,"Same, last 91 days"
+hist_mean_all,origin_history,numeric,"Same, all history up to the origin"
+hist_customers_91,origin_history,numeric,"Store's average customers per open day, last 91 days"
+hist_spc_91,origin_history,numeric,"Sales per customer, last 91 days"
+hist_days_91,origin_history,numeric,Number of open days with sales in the last 91 days
+hist_promo_mean_91,origin_history,numeric,"Average sales on Monday-Friday promotion days, last 91 days"
+hist_nopromo_mean_91,origin_history,numeric,"Average sales on Monday-Friday non-promotion days, last 91 days"
+hist_promo_lift_all,origin_history,numeric,"Promotion vs non-promotion sales ratio, all history to the origin"
+hist_momentum,origin_history,numeric,Last 28 days divided by last 91 days
+hist_dow_mean_91,origin_history,numeric,"Store's average sales on this weekday, last 91 days"
+hist_dow_mean_all,origin_history,numeric,"Store's average sales on this weekday, all history to the origin"
+ly_sales_same_dow,origin_history,numeric,Store's sales on the same weekday one year earlier
+ly_week_mean,origin_history,numeric,Store's average sales in the 7 days around that date one year earlier

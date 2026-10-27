@@ -1,0 +1,5 @@
+class,binary,categorical,numeric,total
+known_future,12,3,25,40
+origin_history,0,0,14,14
+store_static,3,3,1,7
+all features,15,6,40,61
