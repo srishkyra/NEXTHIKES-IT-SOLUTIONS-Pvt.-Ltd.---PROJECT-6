@@ -1,0 +1,4 @@
+id,section,decision,reason,status
+S7-D01,7,Select by mean three-window RMSPE on positive-sales days.,Matches the declared relative-error objective; MAE/RMSE retained.,Confirmed
+S7-D02,7,Provisional ML finalist: LightGBM_2.,Lowest mean window RMSPE among predefined history ML candidates.,Provisional; Section 8 and final holdout pending
+S7-D03,7,Train cap=200000; delayed history=48 calendar days.,Bounded computation and valid fixed-origin features through day 48.,Confirmed

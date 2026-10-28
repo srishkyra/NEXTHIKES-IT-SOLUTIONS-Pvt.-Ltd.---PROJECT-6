@@ -1,0 +1,9 @@
+{
+  "three_windows": true,
+  "all_comparison_fits": true,
+  "three_registered_candidates": true,
+  "validation_before_holdout": true,
+  "closed_predictions_zero": true,
+  "finalist_saved": true,
+  "baseline_success": true
+}

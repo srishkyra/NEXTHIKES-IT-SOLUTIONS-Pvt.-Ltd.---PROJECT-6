@@ -1,0 +1,4 @@
+candidate,model_uri
+LightGBM_2,models:/m-bcba913249e34230bceb45cb4b638f5d
+RandomForest_2,models:/m-2a846ef7bfdc47469b3b4b009a01213d
+Ridge_1,models:/m-2af0c1266ec04d84906dc54ac5c59ca9

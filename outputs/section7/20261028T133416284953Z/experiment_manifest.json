@@ -1,0 +1,59 @@
+{
+  "run_id": "20261028T133416284953Z",
+  "seed": 42,
+  "python": "3.14.3",
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.5.0",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "mlflow": "3.16.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.0"
+  },
+  "train_cap": 200000,
+  "warmup_days": 180,
+  "history_delay_days": 48,
+  "grid": {
+    "Ridge": [
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ],
+    "RandomForest": [
+      {
+        "n_estimators": 100,
+        "max_depth": 16,
+        "min_samples_leaf": 10,
+        "max_features": 0.15
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": 22,
+        "min_samples_leaf": 5,
+        "max_features": 0.15
+      }
+    ],
+    "LightGBM": [
+      {
+        "n_estimators": 350,
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "min_child_samples": 40
+      },
+      {
+        "n_estimators": 600,
+        "learning_rate": 0.04,
+        "num_leaves": 63,
+        "min_child_samples": 60
+      }
+    ]
+  },
+  "holdout_start": "2015-06-20",
+  "reference_feature_sha256": "ed207dca22c8dd29efbaad4193a4bc3d6c01fd04a2d108f04dcb09336b208f23",
+  "selection": "mean fold RMSPE; ties by candidate name",
+  "scope": "rolling validation only; final holdout not scored"
+}

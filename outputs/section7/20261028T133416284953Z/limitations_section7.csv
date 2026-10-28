@@ -1,0 +1,7 @@
+id,limitation,effect
+S7-L01,Only two configurations per family; training may be sampled.,"Best within this budget, not a globally optimal model."
+S7-L02,48-day delayed history is conservative relative to origin-frozen summaries.,Recent information is deliberately omitted for earlier forecast days.
+S7-L03,Static metadata availability is assumed; historical snapshots absent.,Historical metadata leakage cannot be fully ruled out.
+S7-L04,Reference features are not verified against unseen Section 6.,Reconcile feature contracts before merging into the master notebook/app.
+S7-L05,Reported validation scores were used for model selection.,They are tuning estimates; holdout evidence is still required.
+S7-L06,Inference timing excludes feature construction; model MB excludes history.,Production latency/storage require end-to-end measurement.

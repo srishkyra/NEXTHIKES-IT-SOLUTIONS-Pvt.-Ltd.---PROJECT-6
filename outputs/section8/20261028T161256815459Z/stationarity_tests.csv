@@ -1,0 +1,55 @@
+series,transform,n,adf_p,kpss_p,joint_stationary,warning
+Fixed panel total,Sales level,774,0.0002225471436604309,0.01,False,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+Fixed panel total,Log level,774,6.499718541140242e-05,0.01,False,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+Fixed panel total,Log diff 1,773,5.726145218451569e-18,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Fixed panel total,Log diff 7,767,6.32079974745469e-20,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 3 | type a,Sales level,774,4.663832956648196e-06,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 3 | type a,Log level,774,1.2446991976911809e-06,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 3 | type a,Log diff 1,773,5.029368880373584e-22,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 3 | type a,Log diff 7,767,3.291634247290902e-16,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 259 | type b,Sales level,774,0.01834717510948859,0.01,False,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+Store 259 | type b,Log level,774,3.320807315104787e-06,0.016579553672565292,False,
+Store 259 | type b,Log diff 1,773,2.5353204710582176e-16,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 259 | type b,Log diff 7,767,1.962691772064941e-23,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 1 | type c,Sales level,774,0.0011571786297499631,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 1 | type c,Log level,774,4.589082269993512e-06,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 1 | type c,Log diff 1,773,1.7128522337256206e-21,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 1 | type c,Log diff 7,767,7.986920735281481e-16,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 15 | type d,Sales level,774,8.381200381555216e-06,0.09091898415272617,True,
+Store 15 | type d,Log level,774,8.119648444993516e-07,0.09585253036544919,True,
+Store 15 | type d,Log diff 1,773,1.4211662964119088e-20,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+Store 15 | type d,Log diff 7,767,6.032459811678031e-17,0.1,True,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"

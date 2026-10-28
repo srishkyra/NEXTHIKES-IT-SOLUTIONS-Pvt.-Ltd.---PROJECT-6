@@ -1,0 +1,6 @@
+series,diagnostic_choice,lstm_target
+Fixed panel total,Log diff 7,log levels; predeclared
+Store 3 | type a,Log level,log levels; predeclared
+Store 259 | type b,Log diff 7,log levels; predeclared
+Store 1 | type c,Log level,log levels; predeclared
+Store 15 | type d,Log level,log levels; predeclared
