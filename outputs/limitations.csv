@@ -23,3 +23,8 @@ L21,5,"Holiday effects rest on 3 Easters, 2 Christmases and 14 national holidays
 L22,5,Competitor-opening analysis covers 120 stores with complete history and a known opening month; dates are accurate only to the month.,The size of the effect is approximate and may differ for stores excluded from the analysis.
 L23,5,Sunday trading is rare (33 stores) and tied to store type; only 13 type a stores allow a like-with-like comparison.,The Sunday-trading findings are tentative.
 L24,5,"The exploration excludes the final 42 days, so the most recent weeks are not shown.",Patterns in the last weeks before the test window are not described here.
+L25,6,Same-year-earlier features are missing for the first year of training rows (2013) and for the 180 stores with the 2014 gap in the test window.,Models must handle missing values; forecasts for those stores rely on recent history instead.
+L26,6,Holiday distances rely on holidays that appear in the files. Regional events that are not flagged (for example 16 February 2015) cause large errors on those days.,Some of the hardest days to forecast are regional events the data does not mark.
+L27,6,"The same target day can appear in up to two forecast origins, with different horizons and history.",Training rows are not independent; validation stays leak-free because each window uses one origin.
+L28,6,"Sunday and holiday forecasts for the 33 stores that trade on Sundays are the hardest, with few examples.",Errors on those days (RMSPE up to 0.9) can dominate a window's score.
+L29,6,"The comparison of feature sets used one fast model on a 300,000-row sample.",The size of the improvement is indicative; Section 7 repeats it with the final models.
