@@ -1,0 +1,6 @@
+,rolling_1,rolling_2,rolling_3,seasonal_check
+"Last observed week, same weekday",0.0,0.0,0.0,0.0
+Store-by-weekday average (all history),0.0,0.0,0.0,0.0
+Store-by-weekday average (last 13 weeks),0.0,0.0,0.0,0.0
+Store-by-weekday-and-promotion average,0.0,0.0,0.0,0.0
+Same weekday one year earlier,0.3,8.9,7.8,0.2

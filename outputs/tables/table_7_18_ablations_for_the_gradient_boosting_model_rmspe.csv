@@ -1,0 +1,5 @@
+variant,rolling_1,rolling_2,rolling_3,seasonal_check,rolling average,change vs reference (%)
+All 61 features (reference),0.1669,0.1159,0.1064,0.1053,0.1297,0.0
+Without the same-year-earlier features,0.1706,0.1146,0.107,0.1055,0.1307,0.755
+Without unusually low sales in training,0.1771,0.1176,0.113,0.1039,0.1359,4.7562
+Without any flagged unusual sales in training,0.1715,0.1178,0.1143,0.1044,0.1345,3.6862

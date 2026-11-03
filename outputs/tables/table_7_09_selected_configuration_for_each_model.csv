@@ -1,0 +1,4 @@
+,params
+hist_gradient_boosting,"min_samples_leaf=20, max_leaf_nodes=127, max_iter=300, learning_rate=0.05, l2_regularization=0.0"
+random_forest,"n_estimators=60, max_features=0.3, min_samples_leaf=5"
+ridge,alpha=100.0

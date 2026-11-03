@@ -1,0 +1,7 @@
+,value
+Finalist model,Gradient boosting
+Settings,"min_samples_leaf=20, max_leaf_nodes=127, max_iter=300, learning_rate=0.05, l2_regularization=0.0"
+Features,61 (all features kept)
+Training rows for the final model,"all labelled history rows (Section 10); this candidate used 400,000"
+Unusual sales in training,kept
+Candidate RMSPE on rolling window 3,0.1020

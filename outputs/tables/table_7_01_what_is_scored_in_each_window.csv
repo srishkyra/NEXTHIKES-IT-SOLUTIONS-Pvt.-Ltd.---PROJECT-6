@@ -1,0 +1,5 @@
+window,store_days,closed (forecast as 0),open with zero sales (not scored),"scored (open, positive sales)",closed rows with sales
+rolling_1,46830,6654,1,40175,0
+rolling_2,46830,9786,0,37044,0
+rolling_3,46830,9357,1,37472,0
+seasonal_check,44880,6474,7,38399,0

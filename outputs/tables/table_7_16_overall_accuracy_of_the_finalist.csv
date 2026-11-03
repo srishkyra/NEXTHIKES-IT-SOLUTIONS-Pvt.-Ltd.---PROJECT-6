@@ -1,0 +1,6 @@
+,value
+"RMSPE, rolling windows",0.1334
+"RMSPE, seasonal check",0.1053
+"Average percentage error (bias), rolling windows",-1.1%
+"Average percentage error (bias), seasonal check",-1.1%
+Share of rows within 10% of the actual value,"71% (rolling), 73% (seasonal)"

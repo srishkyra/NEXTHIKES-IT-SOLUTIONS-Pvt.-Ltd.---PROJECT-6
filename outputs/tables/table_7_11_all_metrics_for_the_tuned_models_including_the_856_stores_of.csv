@@ -1,0 +1,13 @@
+model,window,rmspe,rmspe_test_stores,mae,rmse,bias_pct
+hist_gradient_boosting,rolling_1,0.167,0.183,526.537,784.382,-1.771
+hist_gradient_boosting,rolling_2,0.116,0.118,646.861,958.796,-0.76
+hist_gradient_boosting,rolling_3,0.106,0.109,549.08,784.19,-0.788
+hist_gradient_boosting,seasonal_check,0.105,0.11,518.71,808.888,-1.119
+random_forest,rolling_1,0.173,0.191,510.477,776.76,-0.741
+random_forest,rolling_2,0.134,0.135,740.784,1128.777,-1.856
+random_forest,rolling_3,0.122,0.128,595.209,867.288,-1.712
+random_forest,seasonal_check,0.112,0.116,544.086,857.805,0.419
+ridge,rolling_1,0.222,0.227,858.455,1797.509,3.395
+ridge,rolling_2,0.214,0.215,1161.678,2056.748,1.215
+ridge,rolling_3,0.184,0.174,909.29,1902.834,0.999
+ridge,seasonal_check,0.167,0.16,853.923,1594.66,-3.385

@@ -1,0 +1,5 @@
+,value
+Best baseline,Store-by-weekday-and-promotion average
+"Best baseline, average of the three rolling windows",0.173
+Target 1: a model's average rolling RMSPE is at most,0.13 (25% below the best baseline)
+Target 2: it beats the best baseline in,every rolling window and in the seasonal check

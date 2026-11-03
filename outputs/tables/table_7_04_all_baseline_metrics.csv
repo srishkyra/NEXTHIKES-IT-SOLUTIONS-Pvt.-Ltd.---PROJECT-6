@@ -1,0 +1,21 @@
+baseline,window,rmspe,mae,rmse,bias_pct
+"Last observed week, same weekday",rolling_1,0.237,1197.463,1799.351,-9.612
+Store-by-weekday average (all history),rolling_1,0.26,1080.179,1429.426,6.674
+Store-by-weekday average (last 13 weeks),rolling_1,0.296,1156.04,1566.698,14.117
+Store-by-weekday-and-promotion average,rolling_1,0.194,601.194,902.068,2.938
+Same weekday one year earlier,rolling_1,0.207,717.281,1099.605,-2.055
+"Last observed week, same weekday",rolling_2,0.293,2072.523,2827.114,-19.978
+Store-by-weekday average (all history),rolling_2,0.246,1531.357,2044.354,-5.675
+Store-by-weekday average (last 13 weeks),rolling_2,0.24,1556.511,2082.31,-7.325
+Store-by-weekday-and-promotion average,rolling_2,0.171,988.332,1490.424,-4.53
+Same weekday one year earlier,rolling_2,0.21,1177.787,1701.69,-0.977
+"Last observed week, same weekday",rolling_3,0.303,1347.662,1801.626,15.675
+Store-by-weekday average (all history),rolling_3,0.209,1113.951,1496.249,-1.82
+Store-by-weekday average (last 13 weeks),rolling_3,0.202,1066.114,1423.602,0.091
+Store-by-weekday-and-promotion average,rolling_3,0.153,788.094,1104.367,-4.232
+Same weekday one year earlier,rolling_3,0.177,898.446,1274.544,-2.218
+"Last observed week, same weekday",seasonal_check,0.351,1547.398,2099.719,13.71
+Store-by-weekday average (all history),seasonal_check,0.225,1098.13,1484.27,4.922
+Store-by-weekday average (last 13 weeks),seasonal_check,0.229,1077.206,1456.877,7.432
+Store-by-weekday-and-promotion average,seasonal_check,0.135,649.126,975.957,3.14
+Same weekday one year earlier,seasonal_check,0.386,2045.336,2630.338,1.095

@@ -1,0 +1,5 @@
+,value
+Target (average rolling RMSPE),"at most 0.13, and below the best baseline in every window"
+"Gradient boosting with 150,000 training rows",0.1297 (target met)
+Beats the best baseline in every window,yes
+"Rolling window 3 with 150,000 rows -> 400,000 rows",0.1064 -> 0.1020

@@ -1,0 +1,4 @@
+objective,rmspe,mae,rmse,bias_pct
+"Raw sales, squared error",0.1409,581.0143,845.1939,-0.505
+"Raw sales, squared error weighted by 1/sales squared",0.2414,1462.0275,2426.3761,-8.3049
+"log(1 + sales), squared error (chosen)",0.1344,593.8585,869.8477,-0.9979

@@ -1,0 +1,6 @@
+baseline,rolling_1,rolling_2,rolling_3,seasonal_check,rolling average
+Store-by-weekday-and-promotion average,0.1939,0.1713,0.1533,0.1349,0.1728
+Same weekday one year earlier,0.2067,0.2101,0.1775,0.3856,0.1981
+Store-by-weekday average (all history),0.2603,0.2457,0.2087,0.2249,0.2382
+Store-by-weekday average (last 13 weeks),0.2965,0.2405,0.2024,0.2287,0.2464
+"Last observed week, same weekday",0.2373,0.2926,0.3034,0.3515,0.2777
