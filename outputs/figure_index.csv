@@ -1,2 +1,8 @@
 label,title,file
 Figure 2.1,Project colour palette,fig_2_01_project_colour_palette.png
+Figure 3.1,Stores with a sales record on each day,fig_3_01_stores_with_a_sales_record_on_each_day.png
+Figure 3.2,Distribution of daily sales on open days,fig_3_02_distribution_of_daily_sales_on_open_days.png
+Figure 3.3,Why outliers are flagged instead of removed,fig_3_03_why_outliers_are_flagged_instead_of_removed.png
+Figure 3.4,One store's sales history with flagged days,fig_3_04_one_store_s_sales_history_with_flagged_days.png
+Figure 4.1,Split design timeline,fig_4_01_split_design_timeline.png
+Figure 4.2,Window composition compared with the test window,fig_4_02_window_composition_compared_with_the_test_window.png
