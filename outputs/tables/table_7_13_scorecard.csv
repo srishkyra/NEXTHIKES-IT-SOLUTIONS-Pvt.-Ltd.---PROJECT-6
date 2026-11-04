@@ -1,4 +1,4 @@
 model,average rolling RMSPE,worst rolling window,seasonal check RMSPE,beats the best baseline in every window,meets the target,fit_seconds,predict_ms_per_1000_rows,size_mb
-Gradient boosting,0.1297,0.1669,0.1053,True,True,19.89,12.77,4.35
-Random Forest,0.143,0.173,0.1122,True,False,11.43,3.75,131.37
-Ridge regression,0.2068,0.2224,0.1669,False,False,0.72,1.14,0.01
+Gradient boosting,0.1297,0.1669,0.1053,True,True,21.51,13.33,4.35
+Random Forest,0.143,0.173,0.1122,True,False,13.16,4.28,131.37
+Ridge regression,0.2068,0.2224,0.1669,False,False,0.79,1.24,0.01
