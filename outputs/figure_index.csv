@@ -33,3 +33,7 @@ Figure 8.4,The series after differencing,fig_8_04_the_series_after_differencing.
 Figure 8.5,Chain-level LSTM forecasts and errors,fig_8_05_chain_level_lstm_forecasts_and_errors.png
 Figure 8.6,"Store-level LSTM forecasts, error by week and training curve",fig_8_06_store_level_lstm_forecasts_error_by_week_and_training_curve.png
 Figure 8.7,Fair comparison of all models,fig_8_07_fair_comparison_of_all_models.png
+Figure 9.1,Customer forecasts,fig_9_01_customer_forecasts.png
+Figure 9.2,Feature importance under three measures,fig_9_02_feature_importance_under_three_measures.png
+Figure 9.3,Importance by feature group,fig_9_03_importance_by_feature_group.png
+Figure 9.4,Prediction intervals and their coverage,fig_9_04_prediction_intervals_and_their_coverage.png
