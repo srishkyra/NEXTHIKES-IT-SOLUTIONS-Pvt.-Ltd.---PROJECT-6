@@ -1,0 +1,4 @@
+model,"training time (s, rolling 3)",size (MB),"forecast time (ms per 1,000 store-days)",extra serving dependency
+Gradient boosting,43.69,4.35,43.54,none (scikit-learn)
+Store-level LSTM,155.65,0.99,12.52,TensorFlow / Keras (about 0.5 GB)
+Chain-level LSTM (one series),17.76,,,not a store forecast

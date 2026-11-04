@@ -1,0 +1,3 @@
+challenger,wins every window,pooled interval below zero,gain of at least 3%,replaces gradient boosting
+Store-level LSTM,False,False,False,False
+"Ensemble (50% LSTM, 50% GB)",False,False,False,False

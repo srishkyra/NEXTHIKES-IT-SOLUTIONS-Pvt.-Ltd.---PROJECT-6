@@ -1,0 +1,9 @@
+model,rolling_1,rolling_2,rolling_3,seasonal_check
+"Gradient boosting, store forecasts averaged",0.0,0.0,0.0,0.0
+"LSTM: direct, 28-day window",0.0018,0.0026,0.012,0.0069
+"LSTM: direct, 56-day window (main)",0.0077,0.0057,0.0105,0.0046
+"LSTM: direct, 84-day window",0.0036,0.0066,0.006,0.0029
+"LSTM: one-step model, recursive over the window",0.0038,0.0146,0.0032,0.0005
+"Best baseline, store forecasts averaged",0.0,0.0,0.0,0.0
+"LSTM: direct, 56 days, two-week differenced",0.0089,0.0125,0.0216,0.0136
+"LSTM: direct, 56 days, flat head",0.0101,0.0143,0.0235,0.0201

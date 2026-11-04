@@ -105,3 +105,34 @@ Table 7.20,The final choice carried to the next sections,table_7_20_the_final_ch
 Table 7.21,Versions in the MLflow registry,table_7_21_versions_in_the_mlflow_registry.csv
 Table 7.22,Section 7 completion checks,
 Table 7.23,Success target: result,table_7_23_success_target_result.csv
+Table 8.1,The time series isolated from the sales data,table_8_01_the_time_series_isolated_from_the_sales_data.csv
+Table 8.2,Stationarity tests on the chain-level series and its transformations,table_8_02_stationarity_tests_on_the_chain_level_series_and_its_transfo.csv
+Table 8.3,Effect of each transformation on variance and autocorrelation,table_8_03_effect_of_each_transformation_on_variance_and_autocorrelatio.csv
+Table 8.4,"Stationarity tests on the four typical stores (daily sales, closed days as zero)",table_8_04_stationarity_tests_on_the_four_typical_stores_daily_sales_cl.csv
+Table 8.5,"Strength of the repeating cycle and of the trend (0 = none, 1 = everything)",table_8_05_strength_of_the_repeating_cycle_and_of_the_trend_0_none_1_ev.csv
+Table 8.6,Which lags carry information?,table_8_06_which_lags_carry_information.csv
+Table 8.7,Reversing the differencing: rebuilding 50 days of sales from differenced values and the observed history,table_8_07_reversing_the_differencing_rebuilding_50_days_of_sales_from_.csv
+Table 8.8,Section 8.1 completion checks,
+Table 8.9,Sliding window samples for each split,table_8_09_sliding_window_samples_for_each_split.csv
+Table 8.10,Tensor shapes and memory,table_8_10_tensor_shapes_and_memory.csv
+Table R.1,Same year earlier features at 400 000 training rows rmspe,table_R_01_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.2,"Same-year-earlier features at 400,000 training rows (RMSPE)",table_R_02_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table 8.11,Sliding-window samples for each split,table_8_11_sliding_window_samples_for_each_split.csv
+Table 8.12,Leakage and correctness tests for the sequence framing,
+Table 8.13,"Deep learning framework, versions and hardware",table_8_13_deep_learning_framework_versions_and_hardware.csv
+Table 8.14,Reference forecasts on the Section 7 validation rows (store-day RMSPE),table_8_14_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.15,The brief's model: one-step-ahead accuracy at chain level,table_8_15_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.16,"Chain-level forecast error (RMSPE over days, mean of 3 seeds)",table_8_16_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.17,Chain-level RMSPE: standard deviation over the 3 seeds,table_8_17_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.18,Chain-level LSTM training cost (average per fit),table_8_18_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.19,Recursive vs direct 48-day forecasts (chain level),table_8_19_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.20,Store-level LSTM: training runs,table_8_20_store_level_lstm_training_runs.csv
+Table 8.21,Store-level LSTM: variation across three seeds (rolling window 3),table_8_21_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.22,Store-level LSTM against gradient boosting and the best baseline (same rows),table_8_22_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.23,Where the store-level LSTM is more and less accurate than gradient boosting,table_8_23_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.24,Store-day RMSPE of every model on identical rows,table_8_24_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.25,Store-day RMSPE on the 856 test-file stores,table_8_25_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.26,Paired bootstrap over stores: challenger minus gradient boosting,table_8_26_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 8.27,Decision rule applied,table_8_27_decision_rule_applied.csv
+Table 8.28,Cost of the candidate models,table_8_28_cost_of_the_candidate_models.csv
+Table 8.29,Section 8 completion checks,

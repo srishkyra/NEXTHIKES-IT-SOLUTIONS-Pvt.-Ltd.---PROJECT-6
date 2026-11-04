@@ -1,0 +1,7 @@
+variant,seconds_per_fit,epochs_run,best_epoch,parameters,training_samples
+"direct, 28-day window",11.0,119.0,99.2,64897,87.8
+"direct, 56 days, flat head",12.9,118.6,98.6,164336,84.0
+"direct, 56 days, two-week differenced",13.7,99.6,79.6,64897,82.2
+"direct, 56-day window (main)",15.9,120.1,101.6,64897,84.0
+"direct, 84-day window",16.4,94.9,74.9,64897,80.8
+one-step model,22.7,70.7,50.7,64897,630.2
