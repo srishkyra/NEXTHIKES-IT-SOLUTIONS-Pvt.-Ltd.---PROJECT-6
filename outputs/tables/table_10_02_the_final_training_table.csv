@@ -1,0 +1,6 @@
+,value
+Rows (all origins),"1,360,773"
+"Rows used for training (open, positive sales)","1,360,683"
+Rows with a target inside the holdout (first time they enter a table),"64,924"
+Latest target date,2015-07-31
+Development-period part identical to the Section 6 table,True

@@ -1,0 +1,25 @@
+,,rows,baseline RMSPE,model RMSPE
+promotion,No promotion,23581,0.148,0.111
+promotion,Promotion,16701,0.145,0.1
+holiday,Ordinary day,40282,0.147,0.107
+weekday,Mon,6682,0.137,0.102
+weekday,Tue,6682,0.143,0.098
+weekday,Wed,6682,0.133,0.101
+weekday,Thu,6680,0.127,0.1
+weekday,Fri,6681,0.162,0.107
+weekday,Sat,6682,0.17,0.127
+weekday,Sun,193,0.221,0.158
+week_ahead,1,6717,0.132,0.101
+week_ahead,2,6720,0.158,0.104
+week_ahead,3,6717,0.152,0.122
+week_ahead,4,6708,0.131,0.099
+week_ahead,5,6710,0.138,0.097
+week_ahead,6,6710,0.167,0.116
+store_type,a,21694,0.154,0.109
+store_type,b,714,0.148,0.089
+store_type,c,5328,0.15,0.112
+store_type,d,12546,0.133,0.102
+opening,Normal trading,40220,0.147,0.107
+opening,Within 60 days of reopening,62,0.247,0.175
+test-file store,In test.csv,30960,0.149,0.109
+test-file store,Not in test.csv,9322,0.14,0.101
