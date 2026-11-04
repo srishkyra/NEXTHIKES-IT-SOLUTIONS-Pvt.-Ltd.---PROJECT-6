@@ -1,2 +1,1 @@
 timestamp,section,dataset,model,purpose,result_summary
-2026-11-04 23:50:29,10,final holdout 2015-06-20 to 2015-07-31,gradient boosting 2a262976d01c,single final evaluation after freezing,fingerprint 2a262976d01c; sales RMSPE 0.1068 (baseline 0.1468); customers RMSPE 0.0877; sales interval coverage 88.4%
