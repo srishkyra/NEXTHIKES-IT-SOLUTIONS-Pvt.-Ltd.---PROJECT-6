@@ -1,0 +1,27 @@
+id,requirement,evidence,status
+R01,Cleaning pipelines for outliers and missing data,"Section 3, src/data.py, DVC data-v2-cleaned",Done
+R02,Logging with the logging library,"src/logger.py, logs/project.log",Done
+R03-R13,The 11 exploration questions,"Section 5, outputs/eda_insights.csv",Done
+R14,Additional questions,"Section 5 (Sunday trading, promotion timing, competitor distance bands)",Done
+R15,3 to 5 slide presentation,"Step 0.1 content, outputs/interim_deck/",Content done; slides to be built and exported
+R16,Non-numeric columns and NaNs,"Sections 3 and 6, preprocessing pipeline",Done
+R17,"Date features (weekday, weekend, days to and after holidays, month part, extras)",Section 6 feature catalogue (61 features),Done
+R18,StandardScaler,features.make_preprocessor,Done
+R19,sklearn pipelines,models.make_model (ColumnTransformer + estimator + log target),Done
+R20,Random Forest starting model,Section 7 (rossmann-random-forest),Done
+R21,Loss function chosen and defended,"Section 7.2 (log target, RMSPE), D48",Done
+R22,Feature importance,"Section 9.2 (split gain, permutation, SHAP)",Done
+R23,Confidence intervals,Section 9.3; holdout coverage 88.4%,Done
+R24,Timestamped serialised models,models/04-11-2026-23-56-01.pkl,Done
+R25,"LSTM: stationarity, differencing, ACF/PACF, sliding window, (-1, 1), two layers, Colab",Sections 8.1 to 8.6,Done
+R26,MLflow inference on the test data,Section 10.3 (models:/rossmann-gradient-boosting/11),Done
+R27,Customers forecast,"Sections 9.1 and 10, app",Done
+R28,"App inputs (Store ID, CSV with date-dependent fields, other inputs)","Section 11 (src/predict.py, app.py)",Done
+R29,App plot and CSV download,"Section 11.2, AppTest",Done
+R30,Hosted app link,Section 11.4 steps,Manual step: deploy and paste APP_URL
+R31,"DVC screenshots, multiple data versions","git tags data-v1 to data-v4, models-v1",Evidence ready; screenshot is a manual step
+R32,"MLflow screenshots, multiple model versions",5 registered models; rossmann-gradient-boosting v11,Evidence ready; screenshot is a manual step
+R33,GitHub link with the notebooks,Step 0.2 push commands,Manual step: push and copy the link
+R34,"Blog-style PDF, emphasis on deep learning",outputs/blog_report.md,Content done; export to PDF
+R35,Modular code,"20 modules in src/, shared by notebooks and app",Done
+R36,Badge categories,"Numbered figures in one palette, tests, registers, written report",Done

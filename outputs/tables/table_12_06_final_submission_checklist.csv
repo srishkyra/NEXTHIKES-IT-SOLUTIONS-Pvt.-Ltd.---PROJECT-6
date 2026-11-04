@@ -1,0 +1,6 @@
+final submission item (15 Nov 2026),where,status
+Blog-style PDF,outputs/blog_report.md + figures -> export to PDF,to do (export)
+GitHub link with the notebooks,git push (Step 0.2),to do (push)
+Deployed app link and/or dashboard screenshots,Section 11.4,"to do (deploy, screenshot)"
+"Screenshots of DVC versions, MLflow runs and registry, MLflow inference, timestamped models",Section 12.2,to do (screenshots)
+Submission file,"outputs/submission.csv (41,088 rows, checked)",done
