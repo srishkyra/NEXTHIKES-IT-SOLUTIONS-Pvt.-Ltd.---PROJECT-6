@@ -1,14 +1,14 @@
 model,config,params,rmspe_rolling_1,rmspe_rolling_2,rmspe_rolling_3,rmspe_mean,rmspe_worst,fit_seconds
-hist_gradient_boosting,2,"min_samples_leaf=20, max_leaf_nodes=127, max_iter=300, learning_rate=0.05, l2_regularization=0.0",0.1687,0.119,0.1107,0.1328,0.1687,14.2661
-hist_gradient_boosting,5,"min_samples_leaf=20, max_leaf_nodes=63, max_iter=150, learning_rate=0.2, l2_regularization=1.0",0.1729,0.1176,0.1112,0.1339,0.1729,4.7115
-hist_gradient_boosting,3,"min_samples_leaf=20, max_leaf_nodes=127, max_iter=150, learning_rate=0.05, l2_regularization=0.0",0.1693,0.1231,0.1176,0.1366,0.1693,8.3701
-hist_gradient_boosting,4,"min_samples_leaf=100, max_leaf_nodes=127, max_iter=300, learning_rate=0.05, l2_regularization=10.0",0.1737,0.1216,0.1216,0.139,0.1737,15.4716
-hist_gradient_boosting,1,"min_samples_leaf=100, max_leaf_nodes=127, max_iter=150, learning_rate=0.05, l2_regularization=10.0",0.1739,0.1255,0.1246,0.1413,0.1739,9.7645
-hist_gradient_boosting,6,"min_samples_leaf=100, max_leaf_nodes=31, max_iter=300, learning_rate=0.2, l2_regularization=1.0",0.1785,0.1247,0.128,0.1437,0.1785,6.0353
-random_forest,3,"n_estimators=60, max_features=0.3, min_samples_leaf=5",0.1747,0.1348,0.1232,0.1443,0.1747,6.289
-random_forest,2,"n_estimators=60, max_features=0.5, min_samples_leaf=20",0.1783,0.1402,0.1291,0.1492,0.1783,9.0856
-random_forest,1,"n_estimators=60, max_features=0.3, min_samples_leaf=20",0.178,0.1431,0.1301,0.1504,0.178,5.1136
-ridge,4,alpha=100.0,0.2218,0.2131,0.1835,0.2061,0.2218,0.3975
-ridge,3,alpha=10.0,0.2222,0.2153,0.1837,0.2071,0.2222,0.3981
-ridge,2,alpha=1.0,0.2222,0.2161,0.1841,0.2075,0.2222,0.4404
-ridge,1,alpha=0.1,0.2213,0.2174,0.1846,0.2077,0.2213,0.4524
+hist_gradient_boosting,2,"min_samples_leaf=20, max_leaf_nodes=127, max_iter=300, learning_rate=0.05, l2_regularization=0.0",0.1687,0.119,0.1107,0.1328,0.1687,18.7475
+hist_gradient_boosting,5,"min_samples_leaf=20, max_leaf_nodes=63, max_iter=150, learning_rate=0.2, l2_regularization=1.0",0.1729,0.1176,0.1112,0.1339,0.1729,5.9143
+hist_gradient_boosting,3,"min_samples_leaf=20, max_leaf_nodes=127, max_iter=150, learning_rate=0.05, l2_regularization=0.0",0.1693,0.1231,0.1176,0.1366,0.1693,10.8055
+hist_gradient_boosting,4,"min_samples_leaf=100, max_leaf_nodes=127, max_iter=300, learning_rate=0.05, l2_regularization=10.0",0.1737,0.1216,0.1216,0.139,0.1737,18.7092
+hist_gradient_boosting,1,"min_samples_leaf=100, max_leaf_nodes=127, max_iter=150, learning_rate=0.05, l2_regularization=10.0",0.1739,0.1255,0.1246,0.1413,0.1739,10.81
+hist_gradient_boosting,6,"min_samples_leaf=100, max_leaf_nodes=31, max_iter=300, learning_rate=0.2, l2_regularization=1.0",0.1785,0.1247,0.128,0.1437,0.1785,7.4058
+random_forest,3,"n_estimators=60, max_features=0.3, min_samples_leaf=5",0.1747,0.1348,0.1232,0.1443,0.1747,8.2076
+random_forest,2,"n_estimators=60, max_features=0.5, min_samples_leaf=20",0.1783,0.1402,0.1291,0.1492,0.1783,11.477
+random_forest,1,"n_estimators=60, max_features=0.3, min_samples_leaf=20",0.178,0.1431,0.1301,0.1504,0.178,7.3417
+ridge,4,alpha=100.0,0.2218,0.2131,0.1835,0.2061,0.2218,0.434
+ridge,3,alpha=10.0,0.2222,0.2153,0.1837,0.2071,0.2222,0.4325
+ridge,2,alpha=1.0,0.2222,0.2161,0.1841,0.2075,0.2222,0.4379
+ridge,1,alpha=0.1,0.2213,0.2174,0.1846,0.2077,0.2213,0.492
