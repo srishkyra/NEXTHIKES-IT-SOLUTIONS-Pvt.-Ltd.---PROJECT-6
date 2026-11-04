@@ -67,3 +67,18 @@ Table 5.30,"Change in sales after a competitor opens, by distance of that compet
 Table 5.31,Stores with no competitor distance (a single snapshot: no change over time can be seen),table_5_31_stores_with_no_competitor_distance_a_single_snapshot_no_chan.csv
 Table 5.32,Summary of findings for every question in the brief,table_5_32_summary_of_findings_for_every_question_in_the_brief.csv
 Table 5.33,Section 5 completion checks,
+Table 6.1,Number of features by availability class and kind,table_6_01_number_of_features_by_availability_class_and_kind.csv
+Table 6.2,Feature catalogue,table_6_02_feature_catalogue.csv
+Table 6.3,Range check of the numeric known-future and store features (all train and test store-days),table_6_03_range_check_of_the_numeric_known_future_and_store_features_a.csv
+Table 6.4,The training table built from forecast origins,table_6_04_the_training_table_built_from_forecast_origins.csv
+Table 6.5,Perturbation test: scrambling later sales and customers changes no feature,table_6_05_perturbation_test_scrambling_later_sales_and_customers_chang.csv
+Table 6.6,Training and validation rows for each split,table_6_06_training_and_validation_rows_for_each_split.csv
+Table 6.7,Features for the real forecast (test window),table_6_07_features_for_the_real_forecast_test_window.csv
+Table 6.8,Missing values in the test features (expected),table_6_08_missing_values_in_the_test_features_expected.csv
+Table 6.9,The preprocessing pipeline fitted on the rolling window 3 training rows,table_6_09_the_preprocessing_pipeline_fitted_on_the_rolling_window_3_tr.csv
+Table 6.10,Forecast error (RMSPE) with and without history features,table_6_10_forecast_error_rmspe_with_and_without_history_features.csv
+Table 6.11,All metrics for the feature-set comparison,table_6_11_all_metrics_for_the_feature_set_comparison.csv
+Table 6.12,Average forecast error by week ahead (three rolling windows),table_6_12_average_forecast_error_by_week_ahead_three_rolling_windows.csv
+Table 6.13,The three hardest days in each window (model with history),table_6_13_the_three_hardest_days_in_each_window_model_with_history.csv
+Table 6.14,Feature tables saved to data/processed,table_6_14_feature_tables_saved_to_data_processed.csv
+Table 6.15,Section 6 completion checks,
