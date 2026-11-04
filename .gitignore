@@ -10,3 +10,5 @@ mlruns/
 mlflow.db
 # Data is versioned with DVC; DVC adds its own ignore entries for tracked folders
 /data
+# model files are versioned with DVC
+/models/
