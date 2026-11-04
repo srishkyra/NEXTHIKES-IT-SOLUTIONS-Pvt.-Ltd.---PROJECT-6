@@ -12,3 +12,6 @@ mlflow.db
 /data
 # model files are versioned with DVC
 /models/
+
+# app_data/ is committed so the hosted app can run without DVC
+!app_data/
