@@ -1,4 +1,4 @@
 ,versions
-rossmann-ridge,2
-rossmann-random-forest,2
-rossmann-gradient-boosting,4
+rossmann-ridge,3
+rossmann-random-forest,3
+rossmann-gradient-boosting,6

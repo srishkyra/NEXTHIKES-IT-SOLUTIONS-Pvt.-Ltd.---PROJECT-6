@@ -1,4 +1,4 @@
 registered model,versions
-rossmann-gradient-boosting,3
-rossmann-random-forest,2
-rossmann-ridge,2
+rossmann-gradient-boosting,5
+rossmann-random-forest,3
+rossmann-ridge,3
