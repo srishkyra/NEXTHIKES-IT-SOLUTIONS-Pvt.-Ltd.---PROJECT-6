@@ -1,0 +1,5 @@
+differencing,future days rebuilt,largest error (sales units)
+lag 1,50,0.0
+lag 7,50,0.0
+lag 14,50,0.0
+lag 14 then lag 1,50,0.0

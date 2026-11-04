@@ -1,0 +1,7 @@
+series,variance vs levels,autocorrelation lag 1,autocorrelation lag 7,autocorrelation lag 14
+"Chain average, levels",1.0,0.43,0.16,0.57
+"Chain average, log",,0.44,0.09,0.57
+First difference (lag 1),1.15,-0.36,0.55,0.69
+Weekly difference (lag 7),1.68,0.69,-0.74,0.45
+Two-week difference (lag 14),0.86,0.6,-0.05,-0.38
+Two-week then first difference,0.7,-0.3,0.08,-0.31

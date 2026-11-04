@@ -1,0 +1,5 @@
+series,function,lags beyond the noise band,six strongest lags
+Levels,Autocorrelation,36,"1 (+0.43), 2 (+0.26), 14 (+0.57), 28 (+0.46), 42 (+0.32), 56 (+0.23)"
+Levels,Partial autocorrelation,19,"1 (+0.43), 7 (+0.37), 8 (-0.39), 12 (+0.20), 14 (+0.36), 15 (-0.35)"
+Two-week difference,Autocorrelation,28,"1 (+0.60), 2 (+0.44), 3 (+0.34), 13 (-0.24), 14 (-0.38), 15 (-0.28)"
+Two-week difference,Partial autocorrelation,23,"1 (+0.60), 5 (-0.13), 13 (-0.15), 14 (-0.29), 15 (+0.14), 42 (-0.14)"

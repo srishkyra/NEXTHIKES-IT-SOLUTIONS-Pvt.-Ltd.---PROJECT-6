@@ -1,0 +1,5 @@
+series,adf_stat,adf_p,kpss_level_p,kpss_trend_p,reading
+Store 770 (type a),-3.9178,0.0019,0.1,0.0283,stationary
+Store 769 (type b),-2.9956,0.0353,0.01,0.1,trend-stationary
+Store 613 (type c),-4.1813,0.0007,0.1,0.1,stationary
+Store 634 (type d),-4.9156,0.0,0.01,0.1,trend-stationary

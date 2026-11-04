@@ -7,29 +7,3 @@ L05,1,store.csv is a static snapshot.,Changes from missing to known competitor d
 L06,1,test.csv has no Sales or Customers.,"Accuracy can only be measured on labelled history, not on the supplied test period."
 L07,1,180 stores are missing the same six-month block in one year.,Needs flagging; rolling and sequence features must not cross the gap.
 L08,1,School holidays are far more common in test (44%) than in train (18%); state holidays b and c never occur in test.,Train/test shift: performance on those patterns cannot be confirmed from the test period.
-L09,3,"The cause of the shared six-month missing block is not in the data (planned closure, refurbishment or missing data).",Forecasts for these stores rely on history on either side of the block; features must not cross it.
-L10,3,The cause of the 54 open zero-sales days cannot be confirmed.,"They are excluded from training on the evidence of their pattern, not on a confirmed explanation."
-L11,3,"Three competitors open after the last training date, inside the forecast window.",Their effect on those stores cannot be learned from training history.
-L12,3,About one third of stores have no usable competitor opening date.,"Competition-age features carry an 'unknown' group, which weakens conclusions about competitor openings."
-L13,3,"Store 622's 11 missing Open values in test are assumed open from a rule, not from supplied plans.","If the store is actually closed on those days, its forecasts for them are overstated."
-L14,4,"Validation uses actual Open, Promo and holiday values as if they were known plans.","If real plans change after the forecast is made, true errors will be somewhat larger than validation suggests."
-L15,4,The rolling windows (February to June) contain little of the summer school-holiday pattern (4% to 23% of days against 44% in test).,"Only the seasonal check resembles the test window, and it has fewer stores and a shorter training history."
-L16,4,The 42-day holdout does not cover forecast days 43 to 48 of the 48-day test window.,Those days are checked only through the seasonal check.
-L17,4,"Only about two and a half years of history exist, with one complete earlier summer (2013) and a partial 2014 summer for 180 stores.",Summer seasonality is learned from very few examples.
-L18,4,A single 42-day holdout is one draw of forecast conditions.,"Holdout error has sampling noise; conclusions rely on the holdout, rolling windows and seasonal check together."
-L19,5,"All stores share one promotion calendar, so promotion effects come from timing (alternating weeks) and are not experimental.",Lift figures are associations; they could partly reflect other weekly patterns.
-L20,5,Customers cannot be split into existing and new customers.,"The effect of promotions on existing customers is only visible indirectly (customers, spend per customer, following days)."
-L21,5,"Holiday effects rest on 3 Easters, 2 Christmases and 14 national holidays; regional holidays were not analysed.",Holiday uplifts are averages over very few events.
-L22,5,Competitor-opening analysis covers 120 stores with complete history and a known opening month; dates are accurate only to the month.,The size of the effect is approximate and may differ for stores excluded from the analysis.
-L23,5,Sunday trading is rare (33 stores) and tied to store type; only 13 type a stores allow a like-with-like comparison.,The Sunday-trading findings are tentative.
-L24,5,"The exploration excludes the final 42 days, so the most recent weeks are not shown.",Patterns in the last weeks before the test window are not described here.
-L25,6,Same-year-earlier features are missing for the first year of training rows (2013) and for the 180 stores with the 2014 gap in the test window.,Models must handle missing values; forecasts for those stores rely on recent history instead.
-L26,6,Holiday distances rely on holidays that appear in the files. Regional events that are not flagged (for example 16 February 2015) cause large errors on those days.,Some of the hardest days to forecast are regional events the data does not mark.
-L27,6,"The same target day can appear in up to two forecast origins, with different horizons and history.",Training rows are not independent; validation stays leak-free because each window uses one origin.
-L28,6,"Sunday and holiday forecasts for the 33 stores that trade on Sundays are the hardest, with few examples.",Errors on those days (RMSPE up to 0.9) can dominate a window's score.
-L29,6,"The comparison of feature sets used one fast model on a 300,000-row sample.",The size of the improvement is indicative; Section 7 repeats it with the final models.
-L30,7,"Tuning used 100,000-row samples and small searches (4, 3 and 6 configurations), and the comparison used 150,000 training rows.",Settings may not be optimal and the reported errors are higher than a full-data fit will give.
-L31,7,"State holidays (RMSPE 0.64) and the few stores that trade on Sundays (0.34) are forecast poorly, on very few rows.",A handful of holiday and Sunday days dominate a window's score; typical weekdays are around 0.10 to 0.12.
-L32,7,"Week-by-week error depends on what the window contains: in the rolling windows week 1 is hardest because holidays fall early, while in the holiday-free seasonal check the error rises from 0.09 to 0.12 over four weeks.",Forecast quality for weeks 3 to 6 of the real test window should be expected to sit between these patterns.
-L33,7,The finalist forecasts about 1% too low on average and is least accurate on promotion days in the rolling windows (0.152 against 0.116).,Totals can be slightly understated; promotion-day forecasts deserve attention in the final model.
-L34,7,"The registered models were trained on samples of the rolling window 3 training rows, not on all history.","They are candidates for comparison, not the final deliverable."
