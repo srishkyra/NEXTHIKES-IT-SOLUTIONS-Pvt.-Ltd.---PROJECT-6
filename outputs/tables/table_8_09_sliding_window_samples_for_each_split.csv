@@ -1,0 +1,9 @@
+level,split,training origins,training samples,first origin,last origin,validation samples
+chain,rolling_1,96,96,2013-03-02,2014-12-27,1
+store,rolling_1,96,101066,2013-03-02,2014-12-27,1115
+chain,rolling_2,102,102,2013-03-02,2015-02-07,1
+store,rolling_2,102,107036,2013-03-02,2015-02-07,1115
+chain,rolling_3,108,108,2013-03-02,2015-03-21,1
+store,rolling_3,108,113726,2013-03-02,2015-03-21,1115
+chain,seasonal_check,68,68,2013-03-01,2014-06-13,1
+store,seasonal_check,68,74890,2013-03-01,2014-06-13,934

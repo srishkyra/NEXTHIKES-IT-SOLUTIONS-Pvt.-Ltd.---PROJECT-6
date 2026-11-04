@@ -1,0 +1,7 @@
+,value
+"History input (samples, days, channels)","(n, 56, 18): scaled sales + 17 planned inputs"
+"Future input (samples, days, channels)","(n, 48, 18): 17 planned inputs + horizon position"
+"Target (samples, days)","(n, 48); NaN on closed, unknown or unscored days"
+Store panel in memory,84 MB (1115 stores x 990 days)
+Memory if the rolling-3 training windows were materialised,0.87 GB
+Chain series equals the 8.1 series,True
