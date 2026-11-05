@@ -82,3 +82,26 @@ Table 6.12,Average forecast error by week ahead (three rolling windows),table_6_
 Table 6.13,The three hardest days in each window (model with history),table_6_13_the_three_hardest_days_in_each_window_model_with_history.csv
 Table 6.14,Feature tables saved to data/processed,table_6_14_feature_tables_saved_to_data_processed.csv
 Table 6.15,Section 6 completion checks,
+Table 7.1,What is scored in each window,table_7_01_what_is_scored_in_each_window.csv
+Table 7.2,The same model trained with three objectives (average of the three rolling windows),table_7_02_the_same_model_trained_with_three_objectives_average_of_the_.csv
+Table 7.3,Baseline forecast error (RMSPE) by window,table_7_03_baseline_forecast_error_rmspe_by_window.csv
+Table 7.4,All baseline metrics,table_7_04_all_baseline_metrics.csv
+Table 7.5,Share of rows where a baseline had no value and fell back to a simpler one (%),table_7_05_share_of_rows_where_a_baseline_had_no_value_and_fell_back_to.csv
+Table 7.6,Success target for the machine learning models,table_7_06_success_target_for_the_machine_learning_models.csv
+Table 7.7,Tuning results on the three rolling windows (sorted within each model),table_7_07_tuning_results_on_the_three_rolling_windows_sorted_within_ea.csv
+Table 7.8,Tuning budget,table_7_08_tuning_budget.csv
+Table 7.9,Selected configuration for each model,table_7_09_selected_configuration_for_each_model.csv
+Table 7.10,Model comparison: forecast error (RMSPE) in every window,table_7_10_model_comparison_forecast_error_rmspe_in_every_window.csv
+Table 7.11,All metrics for the tuned models (including the 856 stores of the test file),table_7_11_all_metrics_for_the_tuned_models_including_the_856_stores_of.csv
+Table 7.12,"Cost of each model (trained on 150,000 rows)",table_7_12_cost_of_each_model_trained_on_150_000_rows.csv
+Table 7.13,Scorecard,table_7_13_scorecard.csv
+Table 7.14,Models in the MLflow registry,table_7_14_models_in_the_mlflow_registry.csv
+Table 7.15,Where the Gradient boosting model is more and less accurate,table_7_15_where_the_gradient_boosting_model_is_more_and_less_accurate.csv
+Table 7.16,Overall accuracy of the finalist,table_7_16_overall_accuracy_of_the_finalist.csv
+Table 7.17,The eight hardest days for the finalist,table_7_17_the_eight_hardest_days_for_the_finalist.csv
+Table 7.18,Ablations for the Gradient boosting model (RMSPE),table_7_18_ablations_for_the_gradient_boosting_model_rmspe.csv
+Table 7.19,Learning curve on rolling window 3: more training rows,table_7_19_learning_curve_on_rolling_window_3_more_training_rows.csv
+Table 7.20,The final choice carried to the next sections,table_7_20_the_final_choice_carried_to_the_next_sections.csv
+Table 7.21,Versions in the MLflow registry,table_7_21_versions_in_the_mlflow_registry.csv
+Table 7.22,Section 7 completion checks,
+Table 7.23,Success target: result,table_7_23_success_target_result.csv
