@@ -17,3 +17,9 @@ L15,4,The rolling windows (February to June) contain little of the summer school
 L16,4,The 42-day holdout does not cover forecast days 43 to 48 of the 48-day test window.,Those days are checked only through the seasonal check.
 L17,4,"Only about two and a half years of history exist, with one complete earlier summer (2013) and a partial 2014 summer for 180 stores.",Summer seasonality is learned from very few examples.
 L18,4,A single 42-day holdout is one draw of forecast conditions.,"Holdout error has sampling noise; conclusions rely on the holdout, rolling windows and seasonal check together."
+L19,5,"All stores share one promotion calendar, so promotion effects come from timing (alternating weeks) and are not experimental.",Lift figures are associations; they could partly reflect other weekly patterns.
+L20,5,Customers cannot be split into existing and new customers.,"The effect of promotions on existing customers is only visible indirectly (customers, spend per customer, following days)."
+L21,5,"Holiday effects rest on 3 Easters, 2 Christmases and 14 national holidays; regional holidays were not analysed.",Holiday uplifts are averages over very few events.
+L22,5,Competitor-opening analysis covers 120 stores with complete history and a known opening month; dates are accurate only to the month.,The size of the effect is approximate and may differ for stores excluded from the analysis.
+L23,5,Sunday trading is rare (33 stores) and tied to store type; only 13 type a stores allow a like-with-like comparison.,The Sunday-trading findings are tentative.
+L24,5,"The exploration excludes the final 42 days, so the most recent weeks are not shown.",Patterns in the last weeks before the test window are not described here.
