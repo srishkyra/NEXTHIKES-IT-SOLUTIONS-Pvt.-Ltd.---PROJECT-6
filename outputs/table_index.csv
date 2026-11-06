@@ -243,3 +243,4 @@ Table 10.16,Final holdout: the ten stores with the largest errors,table_10_16_fi
 Table 10.17,MLflow inference on the test data,table_10_17_mlflow_inference_on_the_test_data.csv
 Table 10.18,Submission file checks,
 Table 10.19,Section 10 completion checks,
+Table 11.7,Files the app needs (app_data/),table_11_07_files_the_app_needs_app_data.csv
