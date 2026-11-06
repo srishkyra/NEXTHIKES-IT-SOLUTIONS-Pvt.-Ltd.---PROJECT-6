@@ -1,4 +1,4 @@
 ,fit_seconds,predict_ms_per_1000_rows,size_mb
-Gradient boosting,36.51,16.36,4.35
-Random Forest,15.59,3.62,131.37
-Ridge regression,1.04,1.7,0.01
+Gradient boosting,38.78,18.07,4.35
+Random Forest,18.81,4.28,131.37
+Ridge regression,1.1,1.73,0.01
