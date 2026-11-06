@@ -1,0 +1,5 @@
+target,model,rmspe,mae,rmse,bias_pct,within_10pct,rmspe_test_stores
+Sales,Best baseline,0.1468,744.0185,1108.6399,0.3172,57.1322,0.1487
+Sales,Gradient boosting (final configuration),0.1068,537.0852,793.5656,0.4458,70.632,0.1086
+Customers,Customer baseline,0.1335,69.3756,103.6424,4.1742,62.8618,0.134
+Customers,Customer model,0.0877,46.6346,68.6906,0.3362,79.2836,0.088

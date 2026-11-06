@@ -1,0 +1,6 @@
+,value
+Model URI,models:/rossmann-gradient-boosting/23
+Rows predicted through MLflow,"41,088"
+Largest difference from the bundle's predictions,0.000000 sales units
+Why a wrapper,MLflow turns 8/16-bit integer columns into 32-bit; the wrapper restores the training types (src/serving.py)
+Registered versions,"rossmann-gradient-boosting v23, rossmann-customers v4"

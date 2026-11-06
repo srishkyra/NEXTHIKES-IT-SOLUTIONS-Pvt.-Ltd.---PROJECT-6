@@ -235,3 +235,11 @@ Table 9.25,Choosing the interval method (rolling window 3),table_9_25_choosing_t
 Table 9.26,Customer intervals: coverage of nominal 90% on data not used for calibration,table_9_26_customer_intervals_coverage_of_nominal_90_on_data_not_used_f.csv
 Table 9.27,"Sales interval around the forecast, by forecast week and store size (saved for the app)",table_9_27_sales_interval_around_the_forecast_by_forecast_week_and_stor.csv
 Table 9.28,Section 9 completion checks,
+Table 10.12,Final holdout (20 Jun to 31 Jul 2015): accuracy,table_10_12_final_holdout_20_jun_to_31_jul_2015_accuracy.csv
+Table 10.13,Final holdout: coverage of the 90% intervals,table_10_13_final_holdout_coverage_of_the_90_intervals.csv
+Table 10.14,Final holdout: verdict,table_10_14_final_holdout_verdict.csv
+Table 10.15,Final holdout: error by group,table_10_15_final_holdout_error_by_group.csv
+Table 10.16,Final holdout: the ten stores with the largest errors,table_10_16_final_holdout_the_ten_stores_with_the_largest_errors.csv
+Table 10.17,MLflow inference on the test data,table_10_17_mlflow_inference_on_the_test_data.csv
+Table 10.18,Submission file checks,
+Table 10.19,Section 10 completion checks,
