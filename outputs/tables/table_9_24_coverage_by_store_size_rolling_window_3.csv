@@ -1,0 +1,5 @@
+size,conformal by forecast week,conformal by forecast week and store size,quantile regression
+smallest 25%,87.8,90.2,82.3
+lower middle,90.5,90.5,83.6
+upper middle,91.5,90.3,83.9
+largest 25%,91.9,90.2,81.2
