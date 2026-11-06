@@ -1,0 +1,7 @@
+window,seed,epochs_run,best_epoch,train_seconds,predict_seconds,training_samples,early_stopping_samples,samples_seen,parameters,validation_rows,rows_without_forecast
+rolling_1,42,8,8,207.6,1.9,91716,9350,327680,75801,40175,0
+rolling_2,42,8,7,195.3,0.5,97326,9710,327680,75801,37044,0
+rolling_3,42,8,8,191.5,0.5,102001,11725,327680,75801,37472,0
+seasonal_check,42,8,7,366.2,108.4,67991,6899,327680,75801,38399,0
+rolling_3,43,8,7,197.4,0.5,102001,11725,327680,75801,37472,0
+rolling_3,44,8,7,268.8,0.5,102001,11725,327680,75801,37472,0

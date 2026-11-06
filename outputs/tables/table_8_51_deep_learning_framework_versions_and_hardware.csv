@@ -1,0 +1,7 @@
+,value
+keras,3.15.1
+backend,tensorflow
+gpu,none
+tensorflow,2.22.0-rc0
+seed,42
+python,3.14.3
