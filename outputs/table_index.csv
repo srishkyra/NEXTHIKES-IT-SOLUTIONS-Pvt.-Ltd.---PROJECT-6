@@ -244,3 +244,10 @@ Table 10.17,MLflow inference on the test data,table_10_17_mlflow_inference_on_th
 Table 10.18,Submission file checks,
 Table 10.19,Section 10 completion checks,
 Table 11.7,Files the app needs (app_data/),table_11_07_files_the_app_needs_app_data.csv
+Table 11.8,Edge cases: what the app does,table_11_08_edge_cases_what_the_app_does.csv
+Table 11.9,Streamlit test harness,
+Table 11.10,requirements.txt (the app only),table_11_10_requirements_txt_the_app_only.csv
+Table 12.7,Consistency of reported numbers,
+Table 12.8,MLflow model registry at submission,table_12_08_mlflow_model_registry_at_submission.csv
+Table 12.9,MLflow runs by stage,table_12_09_mlflow_runs_by_stage.csv
+Table 12.10,Requirements checklist: final status,table_12_10_requirements_checklist_final_status.csv

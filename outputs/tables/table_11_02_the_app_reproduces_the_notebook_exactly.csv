@@ -2,4 +2,4 @@
 Test stores checked,"856 (41,088 store-days)"
 Feature values that differ from the Section 6 test features,0
 Stores whose app forecasts differ from the submission (more than 1 sales unit),0
-Time for all stores,"311 s (363 ms per store, features and forecast)"
+Time for all stores,"598 s (699 ms per store, features and forecast)"
