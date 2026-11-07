@@ -1,5 +1,5 @@
 ,value
-Loading the app data and model,2.1 s
-"One store, 48 days",1.80 s
+Loading the app data and model,0.7 s
+"One store, 48 days",0.24 s
 Peak Python memory while loading and forecasting,37 MB
-Size of app_data/,9.9 MB
+Size of app_data/,14.1 MB
