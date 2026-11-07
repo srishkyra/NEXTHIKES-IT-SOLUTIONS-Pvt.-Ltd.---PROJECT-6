@@ -2,3 +2,35 @@ label,title,file
 Table 2.1,Package versions used in this project,table_2_01_package_versions_used_in_this_project.csv
 Table 2.2,Raw data files,table_2_02_raw_data_files.csv
 Table 2.3,Section 2 completion checks,
+Table 3.1,Overview of the raw files,table_3_01_overview_of_the_raw_files.csv
+Table 3.2,Columns with missing values in the raw files,table_3_02_columns_with_missing_values_in_the_raw_files.csv
+Table 3.3,"Integrity checks on keys, calendar, value ranges and links between files",table_3_03_integrity_checks_on_keys_calendar_value_ranges_and_links_bet.csv
+Table 3.4,Number of stores by missing calendar days in train,table_3_04_number_of_stores_by_missing_calendar_days_in_train.csv
+Table 3.5,The missing block shared by stores with a long gap,table_3_05_the_missing_block_shared_by_stores_with_a_long_gap.csv
+Table 3.6,Missing values in store.csv and what they mean,table_3_06_missing_values_in_store_csv_and_what_they_mean.csv
+Table 3.7,Promo2 participation vs missing promotion details,table_3_07_promo2_participation_vs_missing_promotion_details.csv
+Table 3.8,Competitor distance vs competitor opening date (missing or known),table_3_08_competitor_distance_vs_competitor_opening_date_missing_or_kn.csv
+Table 3.9,Stores with an implausible competitor opening year (before 1990),table_3_09_stores_with_an_implausible_competitor_opening_year_before_19.csv
+Table 3.10,Competitors that open after the last training date,table_3_10_competitors_that_open_after_the_last_training_date.csv
+Table 3.11,Effect of the store.csv cleaning rules,table_3_11_effect_of_the_store_csv_cleaning_rules.csv
+Table 3.12,Join of store.csv to train and test (many-to-one check),table_3_12_join_of_store_csv_to_train_and_test_many_to_one_check.csv
+Table 3.13,Store status vs sales in train (rows),table_3_13_store_status_vs_sales_in_train_rows.csv
+Table 3.14,Open days with zero sales,table_3_14_open_days_with_zero_sales.csv
+Table 3.15,Sales and customers that disagree,table_3_15_sales_and_customers_that_disagree.csv
+Table 3.16,Stores with the most closed normal weekdays,table_3_16_stores_with_the_most_closed_normal_weekdays.csv
+Table 3.17,Stores open on state holidays,table_3_17_stores_open_on_state_holidays.csv
+Table 3.18,Evidence for filling the missing Open values,table_3_18_evidence_for_filling_the_missing_open_values.csv
+Table 3.19,What a global IQR rule would remove,table_3_19_what_a_global_iqr_rule_would_remove.csv
+Table 3.20,Unusual sales relative to the same store and weekday,table_3_20_unusual_sales_relative_to_the_same_store_and_weekday.csv
+Table 3.21,The most extreme flagged store-days,table_3_21_the_most_extreme_flagged_store_days.csv
+Table 3.22,Row and column counts before and after cleaning,table_3_22_row_and_column_counts_before_and_after_cleaning.csv
+Table 3.23,Columns added by the cleaning pipeline,table_3_23_columns_added_by_the_cleaning_pipeline.csv
+Table 3.24,Missing values left after cleaning (both are intentional),table_3_24_missing_values_left_after_cleaning_both_are_intentional.csv
+Table 3.25,"Data-quality table: issue, decision, affected rows and justification",table_3_25_data_quality_table_issue_decision_affected_rows_and_justific.csv
+Table 3.26,Section 3 completion checks,
+Table 4.1,Automatic checks on the split design,
+Table 4.2,Date boundaries of every split,table_4_02_date_boundaries_of_every_split.csv
+Table 4.3,Composition of each forecast window compared with the test window,table_4_03_composition_of_each_forecast_window_compared_with_the_test_w.csv
+Table 4.4,Availability class of every column in the cleaned data,table_4_04_availability_class_of_every_column_in_the_cleaned_data.csv
+Table 4.5,Feature-availability classes,table_4_05_feature_availability_classes.csv
+Table 4.6,Section 4 completion checks,
