@@ -1,0 +1,3 @@
+model,rolling_1,rolling_2,rolling_3,seasonal_check
+Best baseline,0.1939,0.1713,0.1533,0.1349
+"Gradient boosting (59 features, 400,000 rows)",0.1725,0.1106,0.1025,0.1045
