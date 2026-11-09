@@ -105,3 +105,201 @@ Table 7.20,The final choice carried to the next sections,table_7_20_the_final_ch
 Table 7.21,Versions in the MLflow registry,table_7_21_versions_in_the_mlflow_registry.csv
 Table 7.22,Section 7 completion checks,
 Table 7.23,Success target: result,table_7_23_success_target_result.csv
+Table 8.1,The time series isolated from the sales data,table_8_01_the_time_series_isolated_from_the_sales_data.csv
+Table 10.1,The frozen configuration,table_10_01_the_frozen_configuration.csv
+Table 10.2,The final training table,table_10_02_the_final_training_table.csv
+Table 10.3,Final holdout 20 jun to 31 jul 2015 accuracy,table_10_03_final_holdout_20_jun_to_31_jul_2015_accuracy.csv
+Table 10.4,Final holdout coverage of the 90 intervals,table_10_04_final_holdout_coverage_of_the_90_intervals.csv
+Table 10.5,Final holdout verdict,table_10_05_final_holdout_verdict.csv
+Table 10.6,Final holdout error by group,table_10_06_final_holdout_error_by_group.csv
+Table 10.7,Final holdout the ten stores with the largest errors,table_10_07_final_holdout_the_ten_stores_with_the_largest_errors.csv
+Table 10.8,The timestamped model bundle,table_10_08_the_timestamped_model_bundle.csv
+Table 10.9,Mlflow inference on the test data,table_10_09_mlflow_inference_on_the_test_data.csv
+Table 10.11,Sanity check of the test forecasts,table_10_11_sanity_check_of_the_test_forecasts.csv
+Table 10.12,Final holdout 20 jun to 31 jul 2015 accuracy,table_10_12_final_holdout_20_jun_to_31_jul_2015_accuracy.csv
+Table 10.13,Final holdout coverage of the 90 intervals,table_10_13_final_holdout_coverage_of_the_90_intervals.csv
+Table 10.14,Final holdout verdict,table_10_14_final_holdout_verdict.csv
+Table 10.15,Final holdout error by group,table_10_15_final_holdout_error_by_group.csv
+Table 10.16,Final holdout the ten stores with the largest errors,table_10_16_final_holdout_the_ten_stores_with_the_largest_errors.csv
+Table 10.17,Mlflow inference on the test data,table_10_17_mlflow_inference_on_the_test_data.csv
+Table 10.18,Final holdout 20 jun to 31 jul 2015 accuracy,table_10_18_final_holdout_20_jun_to_31_jul_2015_accuracy.csv
+Table 10.19,Final holdout coverage of the 90 intervals,table_10_19_final_holdout_coverage_of_the_90_intervals.csv
+Table 10.20,Final holdout verdict,table_10_20_final_holdout_verdict.csv
+Table 10.21,Final holdout error by group,table_10_21_final_holdout_error_by_group.csv
+Table 10.22,Final holdout the ten stores with the largest errors,table_10_22_final_holdout_the_ten_stores_with_the_largest_errors.csv
+Table 10.23,Mlflow inference on the test data,table_10_23_mlflow_inference_on_the_test_data.csv
+Table 11.1,Files the app needs app data,table_11_01_files_the_app_needs_app_data.csv
+Table 11.2,The app reproduces the notebook exactly,table_11_02_the_app_reproduces_the_notebook_exactly.csv
+Table 11.3,Edge cases what the app does,table_11_03_edge_cases_what_the_app_does.csv
+Table 11.5,Speed and size of the app,table_11_05_speed_and_size_of_the_app.csv
+Table 11.6,Requirements txt the app only,table_11_06_requirements_txt_the_app_only.csv
+Table 11.7,Files the app needs app data,table_11_07_files_the_app_needs_app_data.csv
+Table 11.8,Edge cases what the app does,table_11_08_edge_cases_what_the_app_does.csv
+Table 11.10,Requirements txt the app only,table_11_10_requirements_txt_the_app_only.csv
+Table 11.11,Files the app needs app data,table_11_11_files_the_app_needs_app_data.csv
+Table 11.12,Edge cases what the app does,table_11_12_edge_cases_what_the_app_does.csv
+Table 11.14,Requirements txt the app only,table_11_14_requirements_txt_the_app_only.csv
+Table 12.1,Repository contents,table_12_01_repository_contents.csv
+Table 12.3,Mlflow model registry at submission,table_12_03_mlflow_model_registry_at_submission.csv
+Table 12.4,Mlflow runs by stage,table_12_04_mlflow_runs_by_stage.csv
+Table 12.5,Requirements checklist final status,table_12_05_requirements_checklist_final_status.csv
+Table 12.6,Final submission checklist,table_12_06_final_submission_checklist.csv
+Table 12.8,Mlflow model registry at submission,table_12_08_mlflow_model_registry_at_submission.csv
+Table 12.9,Mlflow runs by stage,table_12_09_mlflow_runs_by_stage.csv
+Table 12.10,Requirements checklist final status,table_12_10_requirements_checklist_final_status.csv
+Table 12.12,Mlflow model registry at submission,table_12_12_mlflow_model_registry_at_submission.csv
+Table 12.13,Mlflow runs by stage,table_12_13_mlflow_runs_by_stage.csv
+Table 12.14,Requirements checklist final status,table_12_14_requirements_checklist_final_status.csv
+Table 8.2,Stationarity tests on the chain level series and its transfo,table_8_02_stationarity_tests_on_the_chain_level_series_and_its_transfo.csv
+Table 8.3,Effect of each transformation on variance and autocorrelatio,table_8_03_effect_of_each_transformation_on_variance_and_autocorrelatio.csv
+Table 8.4,Stationarity tests on the four typical stores daily sales cl,table_8_04_stationarity_tests_on_the_four_typical_stores_daily_sales_cl.csv
+Table 8.5,Strength of the repeating cycle and of the trend 0 none 1 ev,table_8_05_strength_of_the_repeating_cycle_and_of_the_trend_0_none_1_ev.csv
+Table 8.6,Which lags carry information,table_8_06_which_lags_carry_information.csv
+Table 8.7,Reversing the differencing rebuilding 50 days of sales from ,table_8_07_reversing_the_differencing_rebuilding_50_days_of_sales_from_.csv
+Table 8.9,Sliding window samples for each split,table_8_09_sliding_window_samples_for_each_split.csv
+Table 8.10,Tensor shapes and memory,table_8_10_tensor_shapes_and_memory.csv
+Table 8.11,Sliding window samples for each split,table_8_11_sliding_window_samples_for_each_split.csv
+Table 8.13,Deep learning framework versions and hardware,table_8_13_deep_learning_framework_versions_and_hardware.csv
+Table 8.14,Reference forecasts on the section 7 validation rows store d,table_8_14_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.15,The brief s model one step ahead accuracy at chain level,table_8_15_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.16,Chain level forecast error rmspe over days mean of 3 seeds,table_8_16_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.17,Chain level rmspe standard deviation over the 3 seeds,table_8_17_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.18,Chain level lstm training cost average per fit,table_8_18_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.19,Recursive vs direct 48 day forecasts chain level,table_8_19_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.20,Store level lstm training runs,table_8_20_store_level_lstm_training_runs.csv
+Table 8.21,Store level lstm variation across three seeds rolling window,table_8_21_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.22,Store level lstm against gradient boosting and the best base,table_8_22_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.23,Where the store level lstm is more and less accurate than gr,table_8_23_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.24,Store day rmspe of every model on identical rows,table_8_24_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.25,Store day rmspe on the 856 test file stores,table_8_25_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.26,Paired bootstrap over stores challenger minus gradient boost,table_8_26_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 8.27,Decision rule applied,table_8_27_decision_rule_applied.csv
+Table 8.28,Cost of the candidate models,table_8_28_cost_of_the_candidate_models.csv
+Table 8.29,Sliding window samples for each split,table_8_29_sliding_window_samples_for_each_split.csv
+Table 8.31,Deep learning framework versions and hardware,table_8_31_deep_learning_framework_versions_and_hardware.csv
+Table 8.32,Reference forecasts on the section 7 validation rows store d,table_8_32_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.33,The brief s model one step ahead accuracy at chain level,table_8_33_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.34,Chain level forecast error rmspe over days mean of 3 seeds,table_8_34_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.35,Chain level rmspe standard deviation over the 3 seeds,table_8_35_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.36,Chain level lstm training cost average per fit,table_8_36_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.37,Recursive vs direct 48 day forecasts chain level,table_8_37_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.38,Store level lstm training runs,table_8_38_store_level_lstm_training_runs.csv
+Table 8.39,Store level lstm variation across three seeds rolling window,table_8_39_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.40,Store level lstm against gradient boosting and the best base,table_8_40_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.41,Where the store level lstm is more and less accurate than gr,table_8_41_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.42,Store day rmspe of every model on identical rows,table_8_42_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.43,Store day rmspe on the 856 test file stores,table_8_43_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.44,Paired bootstrap over stores challenger minus gradient boost,table_8_44_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 8.45,Sliding window samples for each split,table_8_45_sliding_window_samples_for_each_split.csv
+Table 8.47,Deep learning framework versions and hardware,table_8_47_deep_learning_framework_versions_and_hardware.csv
+Table 8.48,Reference forecasts on the section 7 validation rows store d,table_8_48_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.49,Sliding window samples for each split,table_8_49_sliding_window_samples_for_each_split.csv
+Table 8.51,Deep learning framework versions and hardware,table_8_51_deep_learning_framework_versions_and_hardware.csv
+Table 8.52,Reference forecasts on the section 7 validation rows store d,table_8_52_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.53,The brief s model one step ahead accuracy at chain level,table_8_53_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.54,Chain level forecast error rmspe over days mean of 3 seeds,table_8_54_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.55,Chain level rmspe standard deviation over the 3 seeds,table_8_55_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.56,Chain level lstm training cost average per fit,table_8_56_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.57,Recursive vs direct 48 day forecasts chain level,table_8_57_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.58,Store level lstm training runs,table_8_58_store_level_lstm_training_runs.csv
+Table 8.59,Store level lstm variation across three seeds rolling window,table_8_59_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.60,Store level lstm against gradient boosting and the best base,table_8_60_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.61,Where the store level lstm is more and less accurate than gr,table_8_61_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.62,Store day rmspe of every model on identical rows,table_8_62_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.63,Store day rmspe on the 856 test file stores,table_8_63_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.64,Paired bootstrap over stores challenger minus gradient boost,table_8_64_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 8.65,Sliding window samples for each split,table_8_65_sliding_window_samples_for_each_split.csv
+Table 8.67,Deep learning framework versions and hardware,table_8_67_deep_learning_framework_versions_and_hardware.csv
+Table 8.68,Reference forecasts on the section 7 validation rows store d,table_8_68_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.69,The brief s model one step ahead accuracy at chain level,table_8_69_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.70,Chain level forecast error rmspe over days mean of 3 seeds,table_8_70_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.71,Chain level rmspe standard deviation over the 3 seeds,table_8_71_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.72,Chain level lstm training cost average per fit,table_8_72_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.73,Recursive vs direct 48 day forecasts chain level,table_8_73_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.74,Store level lstm training runs,table_8_74_store_level_lstm_training_runs.csv
+Table 8.75,Store level lstm variation across three seeds rolling window,table_8_75_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.76,Store level lstm against gradient boosting and the best base,table_8_76_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.77,Where the store level lstm is more and less accurate than gr,table_8_77_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.78,Store day rmspe of every model on identical rows,table_8_78_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.79,Store day rmspe on the 856 test file stores,table_8_79_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.80,Paired bootstrap over stores challenger minus gradient boost,table_8_80_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 8.81,Sliding window samples for each split,table_8_81_sliding_window_samples_for_each_split.csv
+Table 8.83,Deep learning framework versions and hardware,table_8_83_deep_learning_framework_versions_and_hardware.csv
+Table 8.84,Reference forecasts on the section 7 validation rows store d,table_8_84_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.85,The brief s model one step ahead accuracy at chain level,table_8_85_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.86,Chain level forecast error rmspe over days mean of 3 seeds,table_8_86_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.87,Chain level rmspe standard deviation over the 3 seeds,table_8_87_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.88,Chain level lstm training cost average per fit,table_8_88_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.89,Recursive vs direct 48 day forecasts chain level,table_8_89_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.90,Store level lstm training runs,table_8_90_store_level_lstm_training_runs.csv
+Table 8.91,Store level lstm variation across three seeds rolling window,table_8_91_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.92,Store level lstm against gradient boosting and the best base,table_8_92_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.93,Where the store level lstm is more and less accurate than gr,table_8_93_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.94,Store day rmspe of every model on identical rows,table_8_94_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.95,Store day rmspe on the 856 test file stores,table_8_95_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.96,Paired bootstrap over stores challenger minus gradient boost,table_8_96_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 9.1,Customer model tuning rmspe on customers 100 000 training ro,table_9_01_customer_model_tuning_rmspe_on_customers_100_000_training_ro.csv
+Table 9.2,Customer forecasts rmspe by window,table_9_02_customer_forecasts_rmspe_by_window.csv
+Table 9.3,Customer forecasts all metrics,table_9_03_customer_forecasts_all_metrics.csv
+Table 9.4,Sanity check spend per customer implied by the two forecasts,table_9_04_sanity_check_spend_per_customer_implied_by_the_two_forecasts.csv
+Table 9.5,Top 20 inputs by three importance measures,table_9_05_top_20_inputs_by_three_importance_measures.csv
+Table 9.6,Do the importance measures agree,table_9_06_do_the_importance_measures_agree.csv
+Table 9.7,Importance by feature group of each measure,table_9_07_importance_by_feature_group_of_each_measure.csv
+Table 9.8,Four forecasts explained by their largest shap effects,table_9_08_four_forecasts_explained_by_their_largest_shap_effects.csv
+Table 9.9,Coverage of nominal 90 intervals on data not used for calibr,table_9_09_coverage_of_nominal_90_intervals_on_data_not_used_for_calibr.csv
+Table 9.10,Coverage by forecast week rolling window 3,table_9_10_coverage_by_forecast_week_rolling_window_3.csv
+Table 9.11,Coverage by store size rolling window 3,table_9_11_coverage_by_store_size_rolling_window_3.csv
+Table 9.12,Choosing the interval method rolling window 3,table_9_12_choosing_the_interval_method_rolling_window_3.csv
+Table 9.13,Customer intervals coverage of nominal 90 on data not used f,table_9_13_customer_intervals_coverage_of_nominal_90_on_data_not_used_f.csv
+Table 9.14,Sales interval around the forecast by forecast week and stor,table_9_14_sales_interval_around_the_forecast_by_forecast_week_and_stor.csv
+Table 9.15,Customer model tuning rmspe on customers 100 000 training ro,table_9_15_customer_model_tuning_rmspe_on_customers_100_000_training_ro.csv
+Table 9.16,Customer forecasts rmspe by window,table_9_16_customer_forecasts_rmspe_by_window.csv
+Table 9.17,Customer forecasts all metrics,table_9_17_customer_forecasts_all_metrics.csv
+Table 9.18,Sanity check spend per customer implied by the two forecasts,table_9_18_sanity_check_spend_per_customer_implied_by_the_two_forecasts.csv
+Table 9.19,Do the importance measures agree,table_9_19_do_the_importance_measures_agree.csv
+Table 9.20,Importance by feature group of each measure,table_9_20_importance_by_feature_group_of_each_measure.csv
+Table 9.21,Four forecasts explained by their largest shap effects,table_9_21_four_forecasts_explained_by_their_largest_shap_effects.csv
+Table 9.22,Coverage of nominal 90 intervals on data not used for calibr,table_9_22_coverage_of_nominal_90_intervals_on_data_not_used_for_calibr.csv
+Table 9.23,Coverage by forecast week rolling window 3,table_9_23_coverage_by_forecast_week_rolling_window_3.csv
+Table 9.24,Coverage by store size rolling window 3,table_9_24_coverage_by_store_size_rolling_window_3.csv
+Table 9.25,Choosing the interval method rolling window 3,table_9_25_choosing_the_interval_method_rolling_window_3.csv
+Table 9.26,Customer intervals coverage of nominal 90 on data not used f,table_9_26_customer_intervals_coverage_of_nominal_90_on_data_not_used_f.csv
+Table 9.27,Sales interval around the forecast by forecast week and stor,table_9_27_sales_interval_around_the_forecast_by_forecast_week_and_stor.csv
+Table 9.28,Customer model tuning rmspe on customers 100 000 training ro,table_9_28_customer_model_tuning_rmspe_on_customers_100_000_training_ro.csv
+Table 9.29,Customer forecasts rmspe by window,table_9_29_customer_forecasts_rmspe_by_window.csv
+Table 9.30,Customer forecasts all metrics,table_9_30_customer_forecasts_all_metrics.csv
+Table 9.31,Sanity check spend per customer implied by the two forecasts,table_9_31_sanity_check_spend_per_customer_implied_by_the_two_forecasts.csv
+Table 9.32,Do the importance measures agree,table_9_32_do_the_importance_measures_agree.csv
+Table 9.33,Importance by feature group of each measure,table_9_33_importance_by_feature_group_of_each_measure.csv
+Table 9.34,Four forecasts explained by their largest shap effects,table_9_34_four_forecasts_explained_by_their_largest_shap_effects.csv
+Table 9.35,Coverage of nominal 90 intervals on data not used for calibr,table_9_35_coverage_of_nominal_90_intervals_on_data_not_used_for_calibr.csv
+Table 9.36,Coverage by forecast week rolling window 3,table_9_36_coverage_by_forecast_week_rolling_window_3.csv
+Table 9.37,Coverage by store size rolling window 3,table_9_37_coverage_by_store_size_rolling_window_3.csv
+Table 9.38,Choosing the interval method rolling window 3,table_9_38_choosing_the_interval_method_rolling_window_3.csv
+Table 9.39,Customer intervals coverage of nominal 90 on data not used f,table_9_39_customer_intervals_coverage_of_nominal_90_on_data_not_used_f.csv
+Table 9.40,Sales interval around the forecast by forecast week and stor,table_9_40_sales_interval_around_the_forecast_by_forecast_week_and_stor.csv
+Table R.1,Same year earlier features at 400 000 training rows rmspe,table_R_01_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.2,Same year earlier features at 400 000 training rows rmspe,table_R_02_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.3,Same year earlier features at 400 000 training rows rmspe,table_R_03_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.4,Same year earlier features at 400 000 training rows rmspe,table_R_04_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.5,Same year earlier features at 400 000 training rows rmspe,table_R_05_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.6,Same year earlier features at 400 000 training rows rmspe,table_R_06_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.7,Same year earlier features at 400 000 training rows rmspe,table_R_07_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table R.8,"Same-year-earlier features at 400,000 training rows (RMSPE)",table_R_08_same_year_earlier_features_at_400_000_training_rows_rmspe.csv
+Table 8.97,Sliding-window samples for each split,table_8_97_sliding_window_samples_for_each_split.csv
+Table 8.98,Leakage and correctness tests for the sequence framing,
+Table 8.99,"Deep learning framework, versions and hardware",table_8_99_deep_learning_framework_versions_and_hardware.csv
+Table 8.100,Reference forecasts on the Section 7 validation rows (store-day RMSPE),table_8_100_reference_forecasts_on_the_section_7_validation_rows_store_d.csv
+Table 8.101,The brief's model: one-step-ahead accuracy at chain level,table_8_101_the_brief_s_model_one_step_ahead_accuracy_at_chain_level.csv
+Table 8.102,"Chain-level forecast error (RMSPE over days, mean of 3 seeds)",table_8_102_chain_level_forecast_error_rmspe_over_days_mean_of_3_seeds.csv
+Table 8.103,Chain-level RMSPE: standard deviation over the 3 seeds,table_8_103_chain_level_rmspe_standard_deviation_over_the_3_seeds.csv
+Table 8.104,Chain-level LSTM training cost (average per fit),table_8_104_chain_level_lstm_training_cost_average_per_fit.csv
+Table 8.105,Recursive vs direct 48-day forecasts (chain level),table_8_105_recursive_vs_direct_48_day_forecasts_chain_level.csv
+Table 8.106,Store-level LSTM: training runs,table_8_106_store_level_lstm_training_runs.csv
+Table 8.107,Store-level LSTM: variation across three seeds (rolling window 3),table_8_107_store_level_lstm_variation_across_three_seeds_rolling_window.csv
+Table 8.108,Store-level LSTM against gradient boosting and the best baseline (same rows),table_8_108_store_level_lstm_against_gradient_boosting_and_the_best_base.csv
+Table 8.109,Where the store-level LSTM is more and less accurate than gradient boosting,table_8_109_where_the_store_level_lstm_is_more_and_less_accurate_than_gr.csv
+Table 8.110,Store-day RMSPE of every model on identical rows,table_8_110_store_day_rmspe_of_every_model_on_identical_rows.csv
+Table 8.111,Store-day RMSPE on the 856 test-file stores,table_8_111_store_day_rmspe_on_the_856_test_file_stores.csv
+Table 8.112,Paired bootstrap over stores: challenger minus gradient boosting,table_8_112_paired_bootstrap_over_stores_challenger_minus_gradient_boost.csv
+Table 8.113,Section 8 completion checks,

@@ -26,3 +26,26 @@ Figure 7.2,Tuning results by model,fig_7_02_tuning_results_by_model.png
 Figure 7.3,Model comparison across windows,fig_7_03_model_comparison_across_windows.png
 Figure 7.4,Finalist accuracy in detail,fig_7_04_finalist_accuracy_in_detail.png
 Figure 7.5,Ablations and learning curve,fig_7_05_ablations_and_learning_curve.png
+Figure 8.1,The time series: chain level and four typical stores,fig_8_01_the_time_series_chain_level_and_four_typical_stores.png
+Figure 10.1,Final holdout results,fig_10_01_final_holdout_results.png
+Figure 10.2,Test forecasts in context,fig_10_02_test_forecasts_in_context.png
+Figure 8.2,Decomposition of the chain level series,fig_8_02_decomposition_of_the_chain_level_series.png
+Figure 8.3,Autocorrelation and partial autocorrelation,fig_8_03_autocorrelation_and_partial_autocorrelation.png
+Figure 8.4,The series after differencing,fig_8_04_the_series_after_differencing.png
+Figure 8.5,Chain level lstm forecasts and errors,fig_8_05_chain_level_lstm_forecasts_and_errors.png
+Figure 8.6,Store level lstm forecasts error by week and training curve,fig_8_06_store_level_lstm_forecasts_error_by_week_and_training_curve.png
+Figure 8.7,Fair comparison of all models,fig_8_07_fair_comparison_of_all_models.png
+Figure 8.8,Chain level lstm forecasts and errors,fig_8_08_chain_level_lstm_forecasts_and_errors.png
+Figure 8.9,Store level lstm forecasts error by week and training curve,fig_8_09_store_level_lstm_forecasts_error_by_week_and_training_curve.png
+Figure 8.10,Chain level lstm forecasts and errors,fig_8_10_chain_level_lstm_forecasts_and_errors.png
+Figure 8.11,Store level lstm forecasts error by week and training curve,fig_8_11_store_level_lstm_forecasts_error_by_week_and_training_curve.png
+Figure 8.12,Chain level lstm forecasts and errors,fig_8_12_chain_level_lstm_forecasts_and_errors.png
+Figure 8.13,Store level lstm forecasts error by week and training curve,fig_8_13_store_level_lstm_forecasts_error_by_week_and_training_curve.png
+Figure 8.14,Chain level lstm forecasts and errors,fig_8_14_chain_level_lstm_forecasts_and_errors.png
+Figure 8.15,Store level lstm forecasts error by week and training curve,fig_8_15_store_level_lstm_forecasts_error_by_week_and_training_curve.png
+Figure 9.1,Customer forecasts,fig_9_01_customer_forecasts.png
+Figure 9.2,Feature importance under three measures,fig_9_02_feature_importance_under_three_measures.png
+Figure 9.3,Importance by feature group,fig_9_03_importance_by_feature_group.png
+Figure 9.4,Prediction intervals and their coverage,fig_9_04_prediction_intervals_and_their_coverage.png
+Figure 8.16,Chain-level LSTM forecasts and errors,fig_8_16_chain_level_lstm_forecasts_and_errors.png
+Figure 8.17,"Store-level LSTM forecasts, error by week and training curve",fig_8_17_store_level_lstm_forecasts_error_by_week_and_training_curve.png
