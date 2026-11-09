@@ -333,3 +333,4 @@ Table 12.15,Consistency of reported numbers,
 Table 12.16,MLflow model registry at submission,table_12_16_mlflow_model_registry_at_submission.csv
 Table 12.17,MLflow runs by stage,table_12_17_mlflow_runs_by_stage.csv
 Table 12.18,Requirements checklist: final status,table_12_18_requirements_checklist_final_status.csv
+Table 3.27,How many days each outlier threshold would flag,table_3_27_how_many_days_each_outlier_threshold_would_flag.csv

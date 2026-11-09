@@ -1,0 +1,300 @@
+2026-10-27 16:28:21 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:28:21 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:28:21 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:28:44 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:28:44 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:28:44 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:29:28 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:29:28 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:29:28 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:30:30 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:30:30 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:30:30 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:32:12 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-10-27 16:32:32 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:32:32 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:32:32 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:32:32 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-10-27 16:33:44 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-10-27 16:34:06 | INFO     | rossmann | MLflow trial run f70ca2c0 finished with status FINISHED
+2026-10-27 16:36:05 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-10-27 16:38:51 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-10-27 16:38:52 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-10-27 16:39:10 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-10-27 16:39:50 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-27 16:40:38 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-10-27 16:41:03 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-27 16:41:03 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-10-27 16:41:03 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-10-27 16:41:03 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-10-27 16:41:03 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-10-27 16:41:13 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-10-27 16:41:13 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-10-27 16:41:13 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-10-27 16:41:14 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-10-27 16:41:42 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-10-27 16:42:24 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-10-27 16:43:18 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-10-27 16:43:34 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-10-27 16:48:50 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-10-27 16:50:30 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:50:30 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:50:30 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:50:31 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-10-27 16:50:32 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-10-27 16:50:37 | INFO     | rossmann | MLflow trial run 5f01ffc3 finished with status FINISHED
+2026-10-27 16:50:38 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-10-27 16:50:39 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-10-27 16:50:39 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-10-27 16:50:39 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-10-27 16:50:40 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-27 16:50:41 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-10-27 16:50:41 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-27 16:50:41 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-10-27 16:50:41 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-10-27 16:50:41 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-10-27 16:50:41 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-10-27 16:50:50 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-10-27 16:50:50 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-10-27 16:50:50 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-10-27 16:50:52 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-10-27 16:50:53 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-10-27 16:50:54 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-10-27 16:50:55 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-10-27 16:50:55 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-10-27 16:51:52 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-10-27 16:52:33 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:52:42 | INFO     | rossmann.features |   built 10 of 32 origins
+2026-10-27 16:52:44 | INFO     | rossmann.features |   built 20 of 32 origins
+2026-10-27 16:52:46 | INFO     | rossmann.features |   built 30 of 32 origins
+2026-10-27 16:52:52 | INFO     | rossmann.validation | Feature policy check passed for 61 features.
+2026-10-27 16:52:54 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:52:57 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:53:00 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:53:03 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:53:06 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:53:09 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:55:20 | INFO     | rossmann | Section 6 complete: features built, tested and saved.
+2026-10-27 16:55:21 | INFO     | rossmann | Data version saved: data-v3-features
+2026-10-27 16:56:01 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-10-27 16:56:22 | INFO     | rossmann | Project root: <project>
+2026-10-27 16:56:22 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-27 16:56:22 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-27 16:56:22 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-10-27 16:56:24 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-10-27 16:56:29 | INFO     | rossmann | MLflow trial run 584eb971 finished with status FINISHED
+2026-10-27 16:56:29 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-10-27 16:56:30 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-10-27 16:56:30 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-10-27 16:56:30 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-10-27 16:56:31 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-27 16:56:32 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-10-27 16:56:32 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-27 16:56:32 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-10-27 16:56:32 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-10-27 16:56:32 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-10-27 16:56:32 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-10-27 16:56:41 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-10-27 16:56:41 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-10-27 16:56:41 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-10-27 16:56:42 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-10-27 16:56:43 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-10-27 16:56:45 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-10-27 16:56:46 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-10-27 16:56:46 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-10-27 16:57:40 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-10-27 16:57:44 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:57:46 | INFO     | rossmann.features |   built 10 of 32 origins
+2026-10-27 16:57:48 | INFO     | rossmann.features |   built 20 of 32 origins
+2026-10-27 16:57:50 | INFO     | rossmann.features |   built 30 of 32 origins
+2026-10-27 16:57:52 | INFO     | rossmann.validation | Feature policy check passed for 61 features.
+2026-10-27 16:57:54 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:57:57 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:57:59 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:58:02 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:58:05 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:58:08 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-27 16:59:49 | INFO     | rossmann | Section 6 complete: features built, tested and saved.
+2026-10-27 16:59:50 | INFO     | rossmann | Data version saved: data-v3-features
+2026-10-28 19:00:55 | INFO     | rossmann | Project root: <project>
+2026-10-28 19:00:55 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-28 19:00:55 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-28 19:00:56 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-10-28 19:00:58 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-10-28 19:01:05 | INFO     | rossmann | MLflow trial run 4037d482 finished with status FINISHED
+2026-10-28 19:01:06 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-10-28 19:01:06 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-10-28 19:01:06 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-10-28 19:01:07 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-10-28 19:01:07 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-28 19:01:09 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-10-28 19:01:09 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-28 19:01:09 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-10-28 19:01:09 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-10-28 19:01:09 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-10-28 19:01:09 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-10-28 19:01:18 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-10-28 19:01:18 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-10-28 19:01:18 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-10-28 19:01:19 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-10-28 19:01:20 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-10-28 19:01:22 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-10-28 19:01:22 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-10-28 19:01:23 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-10-28 19:02:15 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-10-28 19:02:19 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:02:21 | INFO     | rossmann.features |   built 10 of 32 origins
+2026-10-28 19:02:23 | INFO     | rossmann.features |   built 20 of 32 origins
+2026-10-28 19:02:25 | INFO     | rossmann.features |   built 30 of 32 origins
+2026-10-28 19:02:26 | INFO     | rossmann.validation | Feature policy check passed for 61 features.
+2026-10-28 19:02:28 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:02:30 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:02:33 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:02:36 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:02:39 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:02:41 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 19:04:15 | INFO     | rossmann | Section 6 complete: features built, tested and saved.
+2026-10-28 19:04:16 | INFO     | rossmann | Data version saved: data-v3-features
+2026-10-28 21:44:15 | INFO     | rossmann | Project root: <project>
+2026-10-28 21:44:15 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-10-28 21:44:15 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-10-28 21:44:15 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-10-28 21:44:17 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-10-28 21:44:23 | INFO     | rossmann | MLflow trial run 9967a39b finished with status FINISHED
+2026-10-28 21:44:24 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-10-28 21:44:25 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-10-28 21:44:26 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-10-28 21:44:26 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-10-28 21:44:26 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-28 21:44:27 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-10-28 21:44:27 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-10-28 21:44:28 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-10-28 21:44:28 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-10-28 21:44:28 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-10-28 21:44:28 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-10-28 21:44:37 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-10-28 21:44:37 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-10-28 21:44:37 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-10-28 21:44:39 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-10-28 21:44:40 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-10-28 21:44:41 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-10-28 21:44:42 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-10-28 21:44:42 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-10-28 21:45:35 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-10-28 21:45:38 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:45:41 | INFO     | rossmann.features |   built 10 of 32 origins
+2026-10-28 21:45:42 | INFO     | rossmann.features |   built 20 of 32 origins
+2026-10-28 21:45:44 | INFO     | rossmann.features |   built 30 of 32 origins
+2026-10-28 21:45:45 | INFO     | rossmann.validation | Feature policy check passed for 61 features.
+2026-10-28 21:45:47 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:45:50 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:45:53 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:45:56 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:45:59 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:46:01 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-10-28 21:47:24 | INFO     | rossmann | Section 6 complete: features built, tested and saved.
+2026-10-28 21:47:25 | INFO     | rossmann | Data version saved: data-v3-features
+2026-11-03 10:22:10 | INFO     | rossmann | Project root: <project>
+2026-11-03 10:22:10 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-11-03 10:22:10 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-11-03 10:22:10 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-11-03 10:22:12 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-11-03 10:22:19 | INFO     | rossmann | MLflow trial run e42da6f2 finished with status FINISHED
+2026-11-03 10:22:19 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-11-03 10:22:20 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-11-03 10:22:20 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-11-03 10:22:20 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-11-03 10:22:21 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-11-03 10:22:22 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-11-03 10:22:22 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-11-03 10:22:22 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-11-03 10:22:22 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-11-03 10:22:22 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-11-03 10:22:22 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-11-03 10:22:31 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-11-03 10:22:32 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-11-03 10:22:32 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-11-03 10:22:33 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-11-03 10:22:34 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-11-03 10:22:35 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-11-03 10:22:36 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-11-03 10:22:36 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-11-03 10:23:31 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-11-03 10:23:35 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:23:37 | INFO     | rossmann.features |   built 10 of 32 origins
+2026-11-03 10:23:39 | INFO     | rossmann.features |   built 20 of 32 origins
+2026-11-03 10:23:41 | INFO     | rossmann.features |   built 30 of 32 origins
+2026-11-03 10:23:42 | INFO     | rossmann.validation | Feature policy check passed for 61 features.
+2026-11-03 10:23:44 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:23:46 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:23:49 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:23:52 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:23:54 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:23:57 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-03 10:25:26 | INFO     | rossmann | Section 6 complete: features built, tested and saved.
+2026-11-03 10:25:27 | INFO     | rossmann | Data version saved: data-v3-features
+2026-11-03 10:38:44 | INFO     | rossmann | Section 7 complete: finalist chosen and registered.
+2026-11-04 17:01:16 | INFO     | rossmann | Project root: <project>
+2026-11-04 17:01:16 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-11-04 17:01:16 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-11-04 17:01:17 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-11-04 17:01:18 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-11-04 17:01:26 | INFO     | rossmann | MLflow trial run b65f170f finished with status FINISHED
+2026-11-04 17:01:26 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-11-04 17:01:28 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-11-04 17:01:28 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-11-04 17:01:28 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-11-04 17:01:28 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-11-04 17:01:29 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-11-04 17:01:29 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-11-04 17:01:30 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-11-04 17:01:30 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-11-04 17:01:30 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-11-04 17:01:30 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-11-04 17:01:39 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-11-04 17:01:39 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-11-04 17:01:39 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-11-04 17:01:40 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-11-04 17:01:41 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-11-04 17:01:43 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-11-04 17:01:44 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
+2026-11-04 17:01:44 | INFO     | rossmann | Section 4 complete: splits, policy and leakage checks in place.
+2026-11-04 17:02:37 | INFO     | rossmann | Section 5 complete: all questions answered, insights table saved.
+2026-11-04 17:02:41 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:02:45 | INFO     | rossmann.features |   built 10 of 32 origins
+2026-11-04 17:02:47 | INFO     | rossmann.features |   built 20 of 32 origins
+2026-11-04 17:02:49 | INFO     | rossmann.features |   built 30 of 32 origins
+2026-11-04 17:02:51 | INFO     | rossmann.validation | Feature policy check passed for 61 features.
+2026-11-04 17:02:53 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:02:57 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:02:59 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:03:02 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:03:05 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:03:09 | INFO     | rossmann.features | Known-future features built for 1,058,297 store-days.
+2026-11-04 17:05:00 | INFO     | rossmann | Section 6 complete: features built, tested and saved.
+2026-11-04 17:05:02 | INFO     | rossmann | Data version saved: data-v3-features
+2026-11-04 17:20:41 | INFO     | rossmann | Section 7 complete: finalist chosen and registered.
+2026-11-04 17:30:56 | INFO     | rossmann | Project root: <project>
+2026-11-04 17:30:56 | INFO     | rossmann | Python 3.14.3 | random seed 42
+2026-11-04 17:30:56 | INFO     | rossmann | Seeds, package versions and requirements files written.
+2026-11-04 17:30:56 | INFO     | rossmann | Raw data check: 4 of 4 files match expected row counts.
+2026-11-04 17:30:58 | INFO     | rossmann | Data version saved: data-v1-raw
+2026-11-04 17:31:04 | INFO     | rossmann | MLflow trial run 736aa5c5 finished with status FINISHED
+2026-11-04 17:31:05 | INFO     | rossmann | Streamlit smoke test finished with 0 error(s).
+2026-11-04 17:31:06 | INFO     | rossmann.data | Loaded raw data: train (1017209, 9), test (41088, 8), store (1115, 10), sample (41088, 2)
+2026-11-04 17:31:06 | INFO     | rossmann | Raw files loaded; 7 columns contain missing values.
+2026-11-04 17:31:06 | INFO     | rossmann | Integrity checks: 27 of 27 passed.
+2026-11-04 17:31:07 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-11-04 17:31:08 | INFO     | rossmann | Outlier review: 986 store-days flagged, none removed; a global IQR rule would have removed 30,769.
+2026-11-04 17:31:08 | INFO     | rossmann.data | Cleaned store.csv: competition distance imputed with median and flagged; competitor dates rebuilt; Promo2 N/A coded.
+2026-11-04 17:31:08 | INFO     | rossmann.data | Cleaned train: 54 suspect zero-sales rows flagged, 986 unusual-sales rows flagged, none removed.
+2026-11-04 17:31:08 | INFO     | rossmann.data | Joined store details to train: 1,017,209 rows kept, all stores matched.
+2026-11-04 17:31:08 | INFO     | rossmann.data | Cleaned test: 11 missing Open values filled by rule.
+2026-11-04 17:31:08 | INFO     | rossmann.data | Joined store details to test: 41,088 rows kept, all stores matched.
+2026-11-04 17:31:17 | INFO     | rossmann.data | Saved train_clean: 1,017,209 rows x 26 columns -> train_clean.csv.gz
+2026-11-04 17:31:18 | INFO     | rossmann.data | Saved test_clean: 41,088 rows x 22 columns -> test_clean.csv.gz
+2026-11-04 17:31:18 | INFO     | rossmann.data | Saved store_clean: 1,115 rows x 14 columns -> store_clean.csv.gz
+2026-11-04 17:31:19 | INFO     | rossmann | Cleaned tables saved to data/interim and reload check passed.
+2026-11-04 17:31:20 | INFO     | rossmann | Data version saved: data-v2-cleaned
+2026-11-04 17:31:22 | INFO     | rossmann | Split design built: 3 rolling windows, final holdout, seasonal check and test window.
+2026-11-04 17:31:23 | INFO     | rossmann.validation | Feature policy check passed for 3 features.
