@@ -21,3 +21,8 @@ Figure 6.1,"What the new calendar, promotion and closure features look like",fig
 Figure 6.2,How forecast origins create training rows,fig_6_02_how_forecast_origins_create_training_rows.png
 Figure 6.3,Missing values by feature,fig_6_03_missing_values_by_feature.png
 Figure 6.4,Value of history features,fig_6_04_value_of_history_features.png
+Figure 7.1,Choosing the loss function,fig_7_01_choosing_the_loss_function.png
+Figure 7.2,Tuning results by model,fig_7_02_tuning_results_by_model.png
+Figure 7.3,Model comparison across windows,fig_7_03_model_comparison_across_windows.png
+Figure 7.4,Finalist accuracy in detail,fig_7_04_finalist_accuracy_in_detail.png
+Figure 7.5,Ablations and learning curve,fig_7_05_ablations_and_learning_curve.png
