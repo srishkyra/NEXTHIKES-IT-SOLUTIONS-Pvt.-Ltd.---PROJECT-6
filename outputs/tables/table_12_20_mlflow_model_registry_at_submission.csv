@@ -1,0 +1,6 @@
+registered model,versions
+rossmann-customers,10
+rossmann-gradient-boosting,32
+rossmann-lstm-store,8
+rossmann-random-forest,14
+rossmann-ridge,14
