@@ -1,0 +1,6 @@
+,result
+Target,RMSPE at most 0.13 and below the best baseline
+Gradient boosting on the holdout,0.1068
+Best baseline on the holdout,0.1468 (the model's error is 27% lower)
+Verdict,target met
+Interval coverage (sales),88.4% (within 90 +/- 5)
