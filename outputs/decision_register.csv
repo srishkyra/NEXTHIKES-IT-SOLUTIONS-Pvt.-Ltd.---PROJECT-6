@@ -76,4 +76,3 @@ D74,2,"DVC tracks the whole data/ folder as one unit with tagged versions (data-
 D75,2,Two requirements files: requirements.txt (app only) and requirements-dev.txt (notebook and tracking).,Keeps hosting installs small and fast while the notebook stays fully reproducible.,Confirmed
 D76,2,"Figures are saved as 'Figure <section>.<n>' in figures/ and tables as 'Table <section>.<n>' in outputs/tables/, all in the shared palette.","Notebook, report and slides can cite the same numbered items.",Confirmed
 D77,2,Models will be saved as dd-mm-yyyy-HH-MM-SS.pkl using config.MODEL_TIMESTAMP_FORMAT.,Matches the brief and lets predictions be traced to a model.,Confirmed
-D78,2,A minimal Streamlit page is deployed early as an environment check.,Finds hosting and dependency problems before the final week.,Confirmed (hosted)
