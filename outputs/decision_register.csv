@@ -8,7 +8,7 @@ D06,1,Predict zero when a store is closed; train on open days only.,All closed d
 D07,1,Do not cap Sales with IQR rules; treat outliers only with evidence from store histories.,High sales may be genuine holiday or promotion peaks the model must learn.,Confirmed
 D08,1,No actual future Customers or Sales may be used as forecast inputs; history is allowed only before the forecast origin.,Prevents leakage; Customers is not available in test.csv.,Confirmed
 D09,1,Use a shared LSTM across stores (store and calendar inputs) as the main deep learning design.,"More practical than 1,115 separate models and runs in Colab.",Confirmed (built in 8.4)
-D10,1,Build the app with Streamlit and host it on a free platform.,Brief allows Streamlit; free hosting is sufficient for the project.,Provisional (confirmed in Section 11)
+D10,1,Build the app with Streamlit and host it on a free platform.,Brief allows Streamlit; free hosting is sufficient for the project.,Confirmed (hosted)
 D11,1,"Unit tests, CI/CD and Docker are optional; list as pending if skipped.",Not required by the brief; avoid claiming work that was not done.,Confirmed
 D12,2,"Settings (paths, seed 42, horizon, tracking names) live in src/config.py; one logger and one style module are shared by notebook and app.","A single source of truth keeps results, figures and the app consistent.",Confirmed
 D13,2,MLflow uses a local SQLite store (mlflow.db); models are logged as pickles (cloudpickle); trial run kept in a separate 'setup-check' experiment.,Supports the model registry and multiple model versions; pickles match the brief's .pkl requirement.,Confirmed
@@ -76,4 +76,4 @@ D74,2,"DVC tracks the whole data/ folder as one unit with tagged versions (data-
 D75,2,Two requirements files: requirements.txt (app only) and requirements-dev.txt (notebook and tracking).,Keeps hosting installs small and fast while the notebook stays fully reproducible.,Confirmed
 D76,2,"Figures are saved as 'Figure <section>.<n>' in figures/ and tables as 'Table <section>.<n>' in outputs/tables/, all in the shared palette.","Notebook, report and slides can cite the same numbered items.",Confirmed
 D77,2,Models will be saved as dd-mm-yyyy-HH-MM-SS.pkl using config.MODEL_TIMESTAMP_FORMAT.,Matches the brief and lets predictions be traced to a model.,Confirmed
-D78,2,A minimal Streamlit page is deployed early as an environment check.,Finds hosting and dependency problems before the final week.,Confirmed (Hosted at https://rossmann-forecast-nexthikes.streamlit.app/)
+D78,2,A minimal Streamlit page is deployed early as an environment check.,Finds hosting and dependency problems before the final week.,Confirmed (hosted)
