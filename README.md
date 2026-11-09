@@ -30,7 +30,7 @@ pip install -r requirements-dev.txt          # the app alone needs only requirem
 dvc pull                                     # data and models from the DVC remote (or copy the raw CSVs to data/raw/)
 ```
 Run `Attempt 1.ipynb`, then `Rossmann_Part2.ipynb`, top to bottom. On a 2-core CPU the second notebook takes about
-1.8 hours (most of it the store-level LSTM and the full-history refits); a Colab GPU is much faster.
+1.0 hours (most of it the store-level LSTM and the full-history refits); a Colab GPU is much faster.
 
 ## The app
 ```bash

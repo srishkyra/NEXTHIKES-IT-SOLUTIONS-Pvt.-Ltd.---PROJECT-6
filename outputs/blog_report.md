@@ -68,7 +68,7 @@ errors, and a direct use of the known promotion calendar. Window length (28 / 56
 differenced series and every forecast error is carried forward through the inversion, which confirms 8.1's conclusion that the
 series is trend-stationary and needs no differencing. A flat output head with three times the parameters overfits the
 roughly 90 training origins (0.265). At chain level, gradient boosting's store forecasts averaged to the same series score
-0.063, better than every LSTM variant. (Figure 8.14)
+0.063, better than every LSTM variant. (Figure 8.16)
 
 ### 5.4 One LSTM for all stores
 The production-scale model is a single LSTM shared by all 1,115 stores: the 56-day history of a store, its plan for the
@@ -77,7 +77,7 @@ to each future day turns the LSTM's summary and that day's plan into the forecas
 114,000 store-origins per split, with early stopping on the latest training origins. On exactly the rows gradient
 boosting is scored on, its RMSPE is 0.179, 0.148, 0.125, 0.127 (rolling 1 to 3, seasonal check) against
 0.172, 0.111, 0.102, 0.105 for gradient boosting: overall 14.6% higher. Its relative standing is best in
-week 1 of the horizon. (Figure 8.15)
+week 1 of the horizon. (Figure 8.17)
 
 ### 5.5 A fair verdict
 A decision rule was written down before the comparison: a challenger replaces gradient boosting only if it wins every

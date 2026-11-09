@@ -1,0 +1,12 @@
+case,outcome,error shown
+Unknown store (9999),rejected,Store 9999 is not in the data. Choose a store number between 1 and 1115.
+A date outside the window (2015-10-01),rejected,"1 date(s) are outside the supported forecast window (2015-08-01 to 2015-09-17, the 48 days after the last day with known sales)."
+Missing Promo column,rejected,"The file is missing the column(s): Promo. Required: Date and Promo (or IsPromo). Optional: Open, StateHoliday or IsHoliday, SchoolHoliday, IsWeekend."
+Promo value 2,rejected,Column Promo must contain only 0 or 1 (19 other value(s) found).
+Wrong IsWeekend,rejected,IsWeekend disagrees with the date on 14 row(s) (Saturday and Sunday are weekend days).
+Duplicate date,rejected,Each date may appear only once.
+Unreadable date,rejected,1 row(s) have a date that cannot be read. Use the format YYYY-MM-DD.
+IsHoliday instead of StateHoliday,forecast for 48 days; note: IsHoliday = 1 was read as a public holiday (StateHoliday 'a').,
+"Only Date and Promo, first two weeks",forecast for 14 days; note: Open was not supplied; the default plan was used.,
+IsPromo / IsOpen names,forecast for 48 days,
+"Store 2 (not in test.csv), example plan",forecast for 48 days,
