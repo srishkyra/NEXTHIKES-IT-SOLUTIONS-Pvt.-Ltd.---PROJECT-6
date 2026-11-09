@@ -1,0 +1,3 @@
+window,coverage_pct,mean_width_pct,below_pct,above_pct
+rolling_3,89.76,27.19,5.43,4.81
+seasonal_check,88.34,27.32,6.02,5.64
