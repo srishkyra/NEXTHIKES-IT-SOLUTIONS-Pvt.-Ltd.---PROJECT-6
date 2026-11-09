@@ -1,0 +1,4 @@
+method,coverage_pct,mean_width_pct,below_pct,above_pct,overall: distance from 90,worst store-size group: distance from 90,score (larger gap)
+conformal by forecast week,90.46,33.85,5.24,4.31,0.46,2.18,2.18
+conformal by forecast week and store size,90.3,33.85,5.21,4.49,0.3,0.53,0.53
+quantile regression (5% and 95%),82.75,28.29,5.65,11.61,7.25,8.77,8.77
