@@ -22,7 +22,7 @@ def make_splits(first_date, last_date, horizon=HORIZON_DAYS, n_windows=N_ROLLING
         valid_start = valid_end - pd.Timedelta(days=horizon - 1)
         rows.append({
             "split": "holdout" if i == 0 else f"rolling_{n_windows - i + 1}",
-            "role": "Final holdout (scored once)" if i == 0 else "Rolling validation (tuning and model choice)",
+            "role": "Final holdout (locked until the final evaluation)" if i == 0 else "Rolling validation (tuning and model choice)",
             "train_start": first,
             "train_end": valid_start - ONE_DAY,
             "valid_start": valid_start,
