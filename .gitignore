@@ -15,3 +15,8 @@ mlflow.db
 
 # app_data/ is committed so the hosted app can run without DVC
 !app_data/
+
+log_file = config.LOGS_DIR / "project.log"
+lines = log_file.read_text(encoding="utf-8").splitlines()
+clean = [ln.replace(str(ROOT), "<project>") for ln in lines[:300]]
+(config.OUTPUTS_DIR / "sample_project_log.txt").write_text("\n".join(clean) + "\n", encoding="utf-8")
