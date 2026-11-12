@@ -30,7 +30,7 @@ pip install -r requirements-dev.txt          # the app alone needs only requirem
 dvc pull                                     # data and models from the DVC remote (or copy the raw CSVs to data/raw/)
 ```
 Run `Attempt 1.ipynb`, then `Rossmann_Part2.ipynb`, top to bottom. On a 2-core CPU the second notebook takes about
-1.4 hours (most of it the store-level LSTM and the full-history refits); a Colab GPU is much faster.
+1.0 hours (most of it the store-level LSTM and the full-history refits); a Colab GPU is much faster.
 
 ## The app
 ```bash
@@ -44,3 +44,7 @@ Supported dates: 2015-08-01 to 2015-09-17 (the 48 days after the last day with k
 mlflow ui --backend-store-uri sqlite:///mlflow.db     # experiments, runs and the model registry
 git log --oneline -- data.dvc; git tag -l              # data versions
 ```
+
+**Tested with:** Python 3.14.3, TensorFlow 2.22.0rc0 (CPU), Keras 3.15.1. If TensorFlow
+2.22.0rc0 cannot be installed, use Python 3.12 with `pip install tensorflow`, or run
+Section 8 on Google Colab. The app needs only `requirements.txt`, which does not include TensorFlow.
