@@ -1,0 +1,4 @@
+measure A,measure B,rank correlation (59 inputs),shared inputs in both top 10
+split gain (share),permutation (RMSPE increase),0.616,8
+split gain (share),mean |SHAP| (log sales),0.847,8
+permutation (RMSPE increase),mean |SHAP| (log sales),0.785,9

@@ -1,0 +1,9 @@
+window,model,rmspe,rmspe_test_stores,mae,bias_pct,within_10pct
+rolling_1,Customer baseline,0.176,0.192,56.378,4.223,73.386
+rolling_1,Customer model,0.149,0.164,48.773,-1.262,79.709
+rolling_2,Customer baseline,0.142,0.144,79.65,-1.839,62.779
+rolling_2,Customer model,0.092,0.093,51.78,-0.058,79.624
+rolling_3,Customer baseline,0.126,0.132,65.405,-1.06,67.597
+rolling_3,Customer model,0.086,0.087,47.468,-0.297,80.447
+seasonal_check,Customer baseline,0.116,0.12,63.346,3.05,69.247
+seasonal_check,Customer model,0.091,0.095,50.257,-0.357,79.203
