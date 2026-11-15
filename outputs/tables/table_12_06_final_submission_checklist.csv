@@ -1,6 +1,7 @@
 final submission item (15 Nov 2026),where,status
-Blog-style PDF,outputs/blog_report.md + figures -> export to PDF,to do (export)
-GitHub link with the notebooks,git push (Step 0.2),to do (push)
-Deployed app link and/or dashboard screenshots,Section 11.4,done
-"Screenshots of DVC versions, MLflow runs and registry, MLflow inference, timestamped models",Section 12.2,to do (screenshots)
-Submission file,"outputs/submission.csv (41,088 rows, checked)",done
+Blog-style PDF,outputs/blog_report.pdf,Incomplete: export the PDF from outputs/blog_report.md
+GitHub link with the notebooks,(not set),Incomplete: push and set GITHUB_URL in 12.1
+Deployed app link,https://rossmann-forecast-nexthikes.streamlit.app/,"Unverified: link set, test it in a private window"
+DVC and MLflow screenshots,outputs/evidence/,DVC: Incomplete: screenshots missing; MLflow: Incomplete: screenshots missing
+Interim presentation (3 to 5 slides),outputs/interim_deck.pdf,Incomplete: slides not exported
+Submission file,"outputs/submission.csv (41,088 rows, checked in 10.4)",Complete

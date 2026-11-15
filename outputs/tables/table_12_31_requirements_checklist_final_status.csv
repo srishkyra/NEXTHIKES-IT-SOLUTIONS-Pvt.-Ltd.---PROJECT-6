@@ -1,0 +1,27 @@
+id,requirement,evidence,status
+R01,Cleaning pipelines for outliers and missing data,"Section 3, src/data.py, DVC data-v2-cleaned",Complete
+R02,Logging with the logging library,"src/logger.py, outputs/sample_project_log.txt",Complete
+R03-R13,The 11 exploration questions,"Section 5, outputs/eda_insights.csv",Complete
+R14,Additional questions,"Section 5 (Sunday trading, promotion timing, competitor distance bands)",Complete
+R15,3 to 5 slide presentation (interim),outputs/interim_deck.pdf,Incomplete: slides not exported
+R16,Non-numeric columns and NaNs,"Sections 3 and 6, preprocessing pipeline",Complete
+R17,"Date features (weekday, weekend, days to and after holidays, month part, extras)",Section 6 feature catalogue (61 candidate features; 59 in the final model),Complete
+R18,StandardScaler,features.make_preprocessor,Complete
+R19,sklearn pipelines,models.make_model (ColumnTransformer + estimator + log target),Complete
+R20,Random Forest starting model,Section 7 (rossmann-random-forest),Complete
+R21,Loss function chosen and defended,"Section 7.2 (log target, RMSPE), D48",Complete
+R22,Feature importance,"Section 9.2 (split gain, validation-set permutation, SHAP)",Complete
+R23,Prediction intervals (the brief's 'confidence intervals'),Section 9.3; holdout coverage 88.4%,Complete
+R24,Timestamped serialised models,models/15-11-2026-19-10-29.pkl,Complete
+R25,"LSTM: stationarity, differencing, ACF/PACF, sliding window, (-1, 1), two layers, Colab",Sections 8.1 to 8.6,Complete (run locally on CPU; no Colab evidence)
+R26,MLflow inference on the test data,Section 10.3 (models:/rossmann-gradient-boosting/39),Complete
+R27,Customers forecast,"Sections 9.1 and 10, app",Complete
+R28,"App inputs (Store ID, CSV with date-dependent fields, other inputs)","Section 11 (src/predict.py, app.py), single and many-store modes",Complete
+R29,App plot and CSV download,"Section 11.2, AppTest",Complete
+R30,Hosted app link,https://rossmann-forecast-nexthikes.streamlit.app/,"Unverified: link set, test it in a private window"
+R31,"DVC screenshots, multiple data versions","outputs/evidence/dvc_versions.png, dvc_diff.png",Incomplete: screenshots missing
+R32,"MLflow screenshots, multiple model versions",5 registered models; rossmann-gradient-boosting v39 (production alias),Incomplete: screenshots missing
+R33,GitHub link with the notebooks,(not set),Incomplete: push and set GITHUB_URL in 12.1
+R34,"Blog-style PDF, emphasis on deep learning",outputs/blog_report.pdf,Incomplete: export the PDF from outputs/blog_report.md
+R35,Modular code,"20 modules in src/, shared by notebooks and app",Complete
+R36,Badge categories,"Numbered figures in one palette, tests, registers, written report",Complete

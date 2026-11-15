@@ -1,0 +1,7 @@
+criterion,outcome,result,where
+1. Accuracy,Complete,"Final holdout RMSPE 0.1068 against 0.1468 for the best baseline. Numeric target: Rolling windows: missed by 0.0001 (Section 7). Final holdout (Section 10.2): met, RMSPE 0.1068",Sections 7 and 10.2
+2. Fairness across stores and time,Mostly met,"The model beats the baseline in every group tested. The groups with larger error are small (stores within 60 days of a reopening, Sundays) and are explained in 10.2",Section 10.2 (check against the group table)
+3. Honest uncertainty,Complete,"Holdout coverage 88.4% (nominal 90%, tolerance 5 points); calibration windows 90.0% to 90.5%",Sections 9.3 and 10.2
+4. Validity,Complete,"Leakage tests pass, closed days are forecast as 0, all submission forecasts are finite and non-negative","Sections 6.4, 10.4 and the 12.1 checks"
+5. Deep learning,Complete,"LSTM built and reproducible, compared fairly; it did not beat gradient boosting (pooled rolling RMSPE 0.1529 against 0.1334)",Section 8
+6. Delivery and consistency,Open,"App set, not yet checked; missing required evidence: ['Blog report (PDF)', 'Interim presentation (3 to 5 slides)', 'DVC: versions and tags', 'DVC: what changed', 'MLflow: experiment runs', 'MLflow: model versions with aliases', 'App: single-store forecast']; consistency checks pass",Sections 11 and 12

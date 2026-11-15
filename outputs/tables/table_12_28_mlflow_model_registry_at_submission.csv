@@ -1,0 +1,6 @@
+registered model,versions,aliases
+rossmann-customers,14,production -> v14
+rossmann-gradient-boosting,39,production -> v39
+rossmann-lstm-store,10,
+rossmann-random-forest,17,
+rossmann-ridge,17,
