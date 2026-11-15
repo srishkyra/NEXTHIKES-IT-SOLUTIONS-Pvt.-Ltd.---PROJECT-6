@@ -1,7 +1,7 @@
 ,value
-Bundle file,models/15-11-2026-19-10-29.pkl (4.2 MB)
-Metadata file,models/15-11-2026-19-10-29.json
+Bundle file,models/15-11-2026-21-07-42.pkl (4.2 MB)
+Metadata file,models/15-11-2026-21-07-42.json
 Timestamp format,%d-%m-%Y-%H-%M-%S
 Reloaded sales predictions identical,True
 Reloaded customer predictions identical,True
-Bundles in models/,"04-11-2026-23-56-01.pkl, 07-11-2026-00-42-56.pkl, 07-11-2026-10-41-10.pkl, 09-11-2026-12-49-34.pkl, 09-11-2026-15-06-15.pkl, 09-11-2026-19-43-36.pkl, 15-11-2026-19-10-29.pkl"
+Bundles in models/,"04-11-2026-23-56-01.pkl, 07-11-2026-00-42-56.pkl, 07-11-2026-10-41-10.pkl, 09-11-2026-12-49-34.pkl, 09-11-2026-15-06-15.pkl, 09-11-2026-19-43-36.pkl, 15-11-2026-19-10-29.pkl, 15-11-2026-21-07-42.pkl"
