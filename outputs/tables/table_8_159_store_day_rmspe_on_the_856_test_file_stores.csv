@@ -1,0 +1,5 @@
+model,rolling_1,rolling_2,rolling_3,seasonal_check
+Best baseline,0.2119,0.1738,0.1607,0.1396
+Gradient boosting,0.1886,0.112,0.1048,0.1089
+Store-level LSTM,0.1964,0.1511,0.1272,0.1311
+"Ensemble (50% LSTM, 50% GB)",0.1875,0.1234,0.1108,0.1136

@@ -1,0 +1,5 @@
+window,recursive (one-step model),direct (main),direct better by (%)
+rolling_1,0.0662,0.0725,-9.6391
+rolling_2,0.1132,0.1041,8.0772
+rolling_3,0.074,0.073,1.2494
+seasonal_check,0.0714,0.0682,4.4031
