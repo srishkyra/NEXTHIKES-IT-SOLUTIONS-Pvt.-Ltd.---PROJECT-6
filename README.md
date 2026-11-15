@@ -5,7 +5,7 @@ forecasts to finance analysts and store managers in a web app.
 
 **Live app:** https://rossmann-forecast-nexthikes.streamlit.app/  
 **Report (PDF):** `outputs/blog_report.pdf`  
-**Start here:** `Attempt 2.ipynb`
+**Start here:** `NextHikes Solutions Pvt Ltd - Notebook.ipynb`
 
 ## Results (final holdout, 20 Jun to 31 Jul 2015, final run)
 | | RMSPE |
@@ -21,7 +21,7 @@ configuration in the final run (see the evaluation log in `outputs/`).
 ## Repository
 | Path | Contents |
 |---|---|
-| `Attempt 2.ipynb` | Sections 1 to 12: overview, setup, cleaning, validation design, exploration, features, machine learning, time-series diagnostics, LSTM, customers, explainability, intervals, final evaluation, app, report |
+| `NextHikes Solutions Pvt Ltd - Notebook.ipynb` | Sections 1 to 12: overview, setup, cleaning, validation design, exploration, features, machine learning, time-series diagnostics, LSTM, customers, explainability, intervals, final evaluation, app, report |
 | `src/` | All reusable code (config, logging, style, data, validation, features, baselines, models, timeseries, sequences, lstm, evaluation, customers, explain, intervals, bundle, predict) |
 | `app.py`, `.streamlit/`, `app_data/` | Streamlit app, theme and the small data files it needs |
 | `data/` (DVC) | raw, cleaned and feature tables; versions `data-v1-raw` to `data-v4-final` |
@@ -38,7 +38,7 @@ pip install -r requirements-dev.txt          # the app alone needs only requirem
 # download the Rossmann Store Sales files (train.csv, test.csv, store.csv) into data/raw/ and run the notebook
 ```
 If TensorFlow 2.22.0rc0 cannot be installed, use Python 3.12 with `pip install tensorflow`, or run the LSTM section on Google Colab.
-Run `Attempt 2.ipynb` top to bottom. On a 2-core CPU the full run takes about
+Run `NextHikes Solutions Pvt Ltd - Notebook.ipynb` top to bottom. On a 2-core CPU the full run takes about
 1.1 hours (most of it the store-level LSTM and the full-history refits).
 Every run creates new MLflow model versions and moves the DVC tags to the latest data and models, so version numbers grow with each run.
 
