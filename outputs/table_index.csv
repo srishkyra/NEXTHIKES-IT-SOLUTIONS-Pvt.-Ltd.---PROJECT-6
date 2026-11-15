@@ -494,3 +494,13 @@ Table 10.52,Final holdout: the ten stores with the largest errors,table_10_52_fi
 Table 10.53,MLflow inference on the test data,table_10_53_mlflow_inference_on_the_test_data.csv
 Table 10.54,Submission file checks,
 Table 10.55,Section 10 completion checks,
+Table 11.31,Files the app needs (app_data/),table_11_31_files_the_app_needs_app_data.csv
+Table 11.32,Edge cases: what the app does,table_11_32_edge_cases_what_the_app_does.csv
+Table 11.33,Streamlit test harness,
+Table 11.34,requirements.txt (the app only),table_11_34_requirements_txt_the_app_only.csv
+Table 12.34,Consistency of reported numbers,
+Table 12.35,MLflow model registry at submission,table_12_35_mlflow_model_registry_at_submission.csv
+Table 12.36,MLflow runs by stage,table_12_36_mlflow_runs_by_stage.csv
+Table 12.37,Evidence files for submission,
+Table 12.38,Requirements checklist: final status,table_12_38_requirements_checklist_final_status.csv
+Table 12.39,Success criteria: outcome,table_12_39_success_criteria_outcome.csv

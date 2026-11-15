@@ -1,9 +1,9 @@
 folder,files,size_mb,versioned with
 src,42,0.3,Git
-app_data,17,31.1,Git
-models,49,56.8,DVC
-outputs,495,33.1,Git
-figures,61,21.4,Git
+app_data,18,35.3,Git
+models,54,62.9,DVC
+outputs,556,37.5,Git
+figures,63,22.5,Git
 data/raw,4,39.8,DVC
 data/interim,3,14.0,DVC
 data/processed,3,55.0,DVC

@@ -15,7 +15,7 @@ forecasts to finance analysts and store managers in a web app.
 | Customer model | 0.0877 |
 | Coverage of the 90% sales ranges | 88.4% (nominal 90%) |
 
-Current production bundle: `models/15-11-2026-19-10-29.pkl`. The holdout was locked during development and scored by the frozen
+Current production bundle: `models/15-11-2026-21-07-42.pkl`. The holdout was locked during development and scored by the frozen
 configuration in the final run (see the evaluation log in `outputs/`).
 
 ## Repository
@@ -39,7 +39,7 @@ pip install -r requirements-dev.txt          # the app alone needs only requirem
 ```
 If TensorFlow 2.22.0rc0 cannot be installed, use Python 3.12 with `pip install tensorflow`, or run the LSTM section on Google Colab.
 Run `Attempt 2.ipynb` top to bottom. On a 2-core CPU the full run takes about
-1.4 hours (most of it the store-level LSTM and the full-history refits).
+1.1 hours (most of it the store-level LSTM and the full-history refits).
 Every run creates new MLflow model versions and moves the DVC tags to the latest data and models, so version numbers grow with each run.
 
 ## The app
