@@ -1,0 +1,5 @@
+window,one-step RMSPE (actual history),sd over seeds
+rolling_1,0.0658,0.003
+rolling_2,0.1102,0.0132
+rolling_3,0.0732,0.003
+seasonal_check,0.0712,0.0006
