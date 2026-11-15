@@ -162,3 +162,18 @@ The weak spots are honest ones: Saturdays (0.127), the Sundays of the few Sunday
 ## References
 
 Hochreiter, S. and Schmidhuber, J. (1997). Long short-term memory. *Neural Computation*, 9(8), 1735-1780. | Friedman, J. H. (2001). Greedy function approximation: a gradient boosting machine. *Annals of Statistics*, 29(5), 1189-1232. | Pedregosa, F. et al. (2011). Scikit-learn: machine learning in Python. *JMLR*, 12, 2825-2830. | Lundberg, S. M. and Lee, S.-I. (2017). A unified approach to interpreting model predictions. *NeurIPS*, 30. | Lei, J. et al. (2018). Distribution-free predictive inference for regression. *JASA*, 113(523), 1094-1111. | Dickey, D. A. and Fuller, W. A. (1979). *JASA*, 74(366), 427-431. | Kwiatkowski, D. et al. (1992). *Journal of Econometrics*, 54, 159-178. | Zaharia, M. et al. (2018). Accelerating the machine learning lifecycle with MLflow. *IEEE Data Engineering Bulletin*, 41(4), 39-45.
+
+
+## References and tools
+
+**Data.** Rossmann Store Sales competition data (train.csv, test.csv, store.csv), Kaggle.
+
+## References and tools
+
+**Tools.** Python 3.14.3, pandas, NumPy, scikit-learn 1.9.0, TensorFlow 2.22.0rc0 and Keras 3.15.1 (LSTM), statsmodels, SHAP, MLflow 3.16.1, DVC 3.67.1, Streamlit 1.65.0, Git and GitHub.
+
+**Methods and background.**
+- Hyndman, R. J. and Athanasopoulos, G., *Forecasting: Principles and Practice* (time-series diagnostics, decomposition, accuracy measures).
+- Hochreiter, S. and Schmidhuber, J. (1997), Long Short-Term Memory, *Neural Computation* 9(8).
+- Lundberg, S. M. and Lee, S.-I. (2017), A Unified Approach to Interpreting Model Predictions, *NeurIPS* (SHAP).
+- Vovk, V., Gammerman, A. and Shafer, G. (2005), *Algorithmic Learning in a Random World* (conformal prediction).
